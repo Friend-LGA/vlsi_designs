@@ -1,0 +1,82 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1654371526
+<< obsli1 >>
+rect 1104 2159 8096 9265
+<< obsm1 >>
+rect 14 2128 8096 9296
+<< metal2 >>
+rect 2594 10626 2650 11426
+rect 18 0 74 800
+<< obsm2 >>
+rect 20 10570 2538 10626
+rect 2706 10570 7376 10626
+rect 20 856 7376 10570
+rect 130 800 7376 856
+<< metal3 >>
+rect 8482 4088 9282 4208
+<< obsm3 >>
+rect 1818 4288 8482 9281
+rect 1818 4008 8402 4288
+rect 1818 2143 8482 4008
+<< metal4 >>
+rect 1818 2128 2138 9296
+rect 2692 2128 3012 9296
+rect 3566 2128 3886 9296
+rect 4440 2128 4760 9296
+rect 5314 2128 5634 9296
+rect 6188 2128 6508 9296
+rect 7062 2128 7382 9296
+<< metal5 >>
+rect 1104 8156 8096 8476
+rect 1104 7272 8096 7592
+rect 1104 6388 8096 6708
+rect 1104 5504 8096 5824
+rect 1104 4620 8096 4940
+rect 1104 3736 8096 4056
+rect 1104 2852 8096 3172
+<< labels >>
+rlabel metal5 s 1104 3736 8096 4056 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 5504 8096 5824 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 7272 8096 7592 6 VGND
+port 1 nsew ground input
+rlabel metal4 s 2692 2128 3012 9296 6 VGND
+port 1 nsew ground input
+rlabel metal4 s 4440 2128 4760 9296 6 VGND
+port 1 nsew ground input
+rlabel metal4 s 6188 2128 6508 9296 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 2852 8096 3172 6 VPWR
+port 2 nsew power input
+rlabel metal5 s 1104 4620 8096 4940 6 VPWR
+port 2 nsew power input
+rlabel metal5 s 1104 6388 8096 6708 6 VPWR
+port 2 nsew power input
+rlabel metal5 s 1104 8156 8096 8476 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 1818 2128 2138 9296 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 3566 2128 3886 9296 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 5314 2128 5634 9296 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 7062 2128 7382 9296 6 VPWR
+port 2 nsew power input
+rlabel metal2 s 18 0 74 800 6 in1
+port 3 nsew signal input
+rlabel metal2 s 2594 10626 2650 11426 6 in2
+port 4 nsew signal input
+rlabel metal3 s 8482 4088 9282 4208 6 out
+port 5 nsew signal output
+<< properties >>
+string FIXED_BBOX 0 0 9282 11426
+string LEFclass BLOCK
+string LEFview TRUE
+string GDS_END 98286
+string GDS_FILE /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/signoff/nor_gate.magic.gds
+string GDS_START 29206
+<< end >>
+

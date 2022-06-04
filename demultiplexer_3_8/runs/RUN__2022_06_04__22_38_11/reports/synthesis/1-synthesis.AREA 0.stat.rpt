@@ -1,0 +1,21 @@
+
+24. Printing statistics.
+
+=== demultiplexer ===
+
+   Number of wires:                 14
+   Number of wire bits:             23
+   Number of public wires:           3
+   Number of public wire bits:      12
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 19
+     sky130_fd_sc_hd__and4_2         1
+     sky130_fd_sc_hd__and4b_2        3
+     sky130_fd_sc_hd__and4bb_2       3
+     sky130_fd_sc_hd__buf_1         11
+     sky130_fd_sc_hd__nor4b_2        1
+
+   Chip area for module '\demultiplexer': 137.632000
+

@@ -1,0 +1,61 @@
+#! /usr/local/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1507-g5d9740572)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/local/lib/ivl/system.vpi";
+:vpi_module "/usr/local/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/local/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/local/lib/ivl/v2005_math.vpi";
+:vpi_module "/usr/local/lib/ivl/va_math.vpi";
+:vpi_module "/usr/local/lib/ivl/v2009.vpi";
+S_0x563931636ed0 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_0x563931637060 .scope module, "or_gate_tb" "or_gate_tb" 3 3;
+ .timescale 0 0;
+v0x563931648970_0 .var "in1", 0 0;
+v0x563931648a40_0 .var "in2", 0 0;
+v0x563931648b10_0 .net "out", 0 0, L_0x563931648c10;  1 drivers
+S_0x5639315fdcf0 .scope module, "or_gate" "or_gate" 3 9, 4 1 0, S_0x563931637060;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "in1";
+    .port_info 1 /INPUT 1 "in2";
+    .port_info 2 /OUTPUT 1 "out";
+L_0x563931648c10 .functor OR 1, v0x563931648970_0, v0x563931648a40_0, C4<0>, C4<0>;
+v0x5639315fedd0_0 .net "in1", 0 0, v0x563931648970_0;  1 drivers
+v0x563931648790_0 .net "in2", 0 0, v0x563931648a40_0;  1 drivers
+v0x563931648850_0 .net "out", 0 0, L_0x563931648c10;  alias, 1 drivers
+    .scope S_0x563931637060;
+T_0 ;
+    %vpi_call/w 3 13 "$dumpfile", "or_gate_tb.vcd" {0 0 0};
+    %vpi_call/w 3 14 "$dumpvars", 32'sb00000000000000000000000000000000 {0 0 0};
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x563931648970_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x563931648a40_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x563931648970_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x563931648a40_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x563931648970_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x563931648a40_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x563931648970_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x563931648a40_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call/w 3 28 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 5;
+    "N/A";
+    "<interactive>";
+    "-";
+    "or_gate_tb.sv";
+    "./../src/or_gate.sv";

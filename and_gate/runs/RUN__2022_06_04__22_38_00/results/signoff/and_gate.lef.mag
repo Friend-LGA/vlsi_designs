@@ -1,0 +1,82 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1654371496
+<< obsli1 >>
+rect 1104 2159 10580 11441
+<< obsm1 >>
+rect 14 2128 10580 11472
+<< metal2 >>
+rect 3238 13043 3294 13843
+rect 18 0 74 800
+<< obsm2 >>
+rect 20 12987 3182 13043
+rect 3350 12987 9826 13043
+rect 20 856 9826 12987
+rect 130 800 9826 856
+<< metal3 >>
+rect 10899 4768 11699 4888
+<< obsm3 >>
+rect 2128 4968 10899 11457
+rect 2128 4688 10819 4968
+rect 2128 2143 10899 4688
+<< metal4 >>
+rect 2128 2128 2448 11472
+rect 3313 2128 3633 11472
+rect 4497 2128 4817 11472
+rect 5682 2128 6002 11472
+rect 6866 2128 7186 11472
+rect 8051 2128 8371 11472
+rect 9235 2128 9555 11472
+<< metal5 >>
+rect 1104 10060 10580 10380
+rect 1104 8904 10580 9224
+rect 1104 7748 10580 8068
+rect 1104 6592 10580 6912
+rect 1104 5436 10580 5756
+rect 1104 4280 10580 4600
+rect 1104 3124 10580 3444
+<< labels >>
+rlabel metal5 s 1104 4280 10580 4600 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 6592 10580 6912 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 8904 10580 9224 6 VGND
+port 1 nsew ground input
+rlabel metal4 s 3313 2128 3633 11472 6 VGND
+port 1 nsew ground input
+rlabel metal4 s 5682 2128 6002 11472 6 VGND
+port 1 nsew ground input
+rlabel metal4 s 8051 2128 8371 11472 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 3124 10580 3444 6 VPWR
+port 2 nsew power input
+rlabel metal5 s 1104 5436 10580 5756 6 VPWR
+port 2 nsew power input
+rlabel metal5 s 1104 7748 10580 8068 6 VPWR
+port 2 nsew power input
+rlabel metal5 s 1104 10060 10580 10380 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 2128 2128 2448 11472 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 4497 2128 4817 11472 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 6866 2128 7186 11472 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 9235 2128 9555 11472 6 VPWR
+port 2 nsew power input
+rlabel metal2 s 18 0 74 800 6 in1
+port 3 nsew signal input
+rlabel metal2 s 3238 13043 3294 13843 6 in2
+port 4 nsew signal input
+rlabel metal3 s 10899 4768 11699 4888 6 out
+port 5 nsew signal output
+<< properties >>
+string FIXED_BBOX 0 0 11699 13843
+string LEFclass BLOCK
+string LEFview TRUE
+string GDS_END 125204
+string GDS_FILE /openlane/designs/current/runs/RUN__2022_06_04__22_38_00/results/signoff/and_gate.magic.gds
+string GDS_START 33584
+<< end >>
+

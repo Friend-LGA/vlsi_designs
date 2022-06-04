@@ -1,0 +1,115 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO tri_state_buffer
+  CLASS BLOCK ;
+  FOREIGN tri_state_buffer ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 65.840 BY 76.560 ;
+  PIN VGND
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 23.440 60.260 25.040 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 37.040 60.260 38.640 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 50.640 60.260 52.240 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 18.405 10.640 20.005 65.520 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 32.090 10.640 33.690 65.520 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 45.775 10.640 47.375 65.520 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 16.640 60.260 18.240 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 30.240 60.260 31.840 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 43.840 60.260 45.440 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 57.440 60.260 59.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 11.560 10.640 13.160 65.520 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 25.245 10.640 26.845 65.520 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 38.930 10.640 40.530 65.520 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 52.615 10.640 54.215 65.520 ;
+    END
+  END VPWR
+  PIN enable
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 0.000 0.370 4.000 ;
+    END
+  END enable
+  PIN in
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 19.410 72.560 19.690 76.560 ;
+    END
+  END in
+  PIN out
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 61.840 27.240 65.840 27.840 ;
+    END
+  END out
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 60.260 65.365 ;
+      LAYER met1 ;
+        RECT 0.070 10.640 60.260 65.520 ;
+      LAYER met2 ;
+        RECT 0.100 72.280 19.130 73.170 ;
+        RECT 19.970 72.280 54.185 73.170 ;
+        RECT 0.100 4.280 54.185 72.280 ;
+        RECT 0.650 4.000 54.185 4.280 ;
+      LAYER met3 ;
+        RECT 11.560 28.240 61.840 65.445 ;
+        RECT 11.560 26.840 61.440 28.240 ;
+        RECT 11.560 10.715 61.840 26.840 ;
+  END
+END tri_state_buffer
+END LIBRARY
+

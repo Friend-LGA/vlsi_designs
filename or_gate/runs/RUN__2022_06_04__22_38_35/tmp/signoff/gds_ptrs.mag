@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 11157 13301
+string GDS_END 119196
+string GDS_FILE /openlane/designs/current/runs/RUN__2022_06_04__22_38_35/results/signoff/or_gate.magic.gds
+string GDS_START 32906
+<< end >>

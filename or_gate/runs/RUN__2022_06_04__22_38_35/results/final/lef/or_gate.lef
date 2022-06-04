@@ -1,0 +1,122 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO or_gate
+  CLASS BLOCK ;
+  FOREIGN or_gate ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 55.785 BY 66.505 ;
+  PIN VGND
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 20.720 50.140 22.320 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 31.600 50.140 33.200 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 42.480 50.140 44.080 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 15.875 10.640 17.475 54.640 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 27.030 10.640 28.630 54.640 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 38.185 10.640 39.785 54.640 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 15.280 50.140 16.880 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 26.160 50.140 27.760 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 37.040 50.140 38.640 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 47.920 50.140 49.520 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 10.300 10.640 11.900 54.640 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 21.455 10.640 23.055 54.640 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 32.610 10.640 34.210 54.640 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 43.765 10.640 45.365 54.640 ;
+    END
+  END VPWR
+  PIN in1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 0.000 0.370 4.000 ;
+    END
+  END in1
+  PIN in2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 16.190 62.505 16.470 66.505 ;
+    END
+  END in2
+  PIN out
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 51.785 23.840 55.785 24.440 ;
+    END
+  END out
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 50.140 54.485 ;
+      LAYER met1 ;
+        RECT 0.070 10.640 50.140 54.640 ;
+      LAYER met2 ;
+        RECT 0.100 62.225 15.910 62.970 ;
+        RECT 16.750 62.225 46.370 62.970 ;
+        RECT 0.100 4.280 46.370 62.225 ;
+        RECT 0.650 4.000 46.370 4.280 ;
+      LAYER met3 ;
+        RECT 10.295 24.840 51.785 54.565 ;
+        RECT 10.295 23.440 51.385 24.840 ;
+        RECT 10.295 10.715 51.785 23.440 ;
+      LAYER met4 ;
+        RECT 12.300 10.640 15.475 54.640 ;
+        RECT 17.875 10.640 21.055 54.640 ;
+        RECT 23.455 10.640 26.630 54.640 ;
+        RECT 29.030 10.640 32.210 54.640 ;
+        RECT 34.610 10.640 37.785 54.640 ;
+        RECT 40.185 10.640 43.365 54.640 ;
+  END
+END or_gate
+END LIBRARY
+

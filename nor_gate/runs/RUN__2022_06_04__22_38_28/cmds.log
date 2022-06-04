@@ -1,0 +1,152 @@
+Sat Jun 04 19:38:29 UTC 2022 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/merged.unpadded.nom.lef -i /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef |& tee /dev/null"
+
+Sat Jun 04 19:38:29 UTC 2022 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/merged.unpadded.min.lef -i /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef |& tee /dev/null"
+
+Sat Jun 04 19:38:29 UTC 2022 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/merged.unpadded.max.lef -i /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef |& tee /dev/null"
+
+Sat Jun 04 19:38:29 UTC 2022 - Executing "openroad -python /openlane/scripts/mergeLib.py --output /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/synthesis/merged.lib --name sky130A_merged /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Sat Jun 04 19:38:29 UTC 2022 - Executing "openroad -python /openlane/scripts/libtrim.py --cell-file /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/synthesis/trimmed.lib.exclude.list --output /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/synthesis/trimmed.lib /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/synthesis/merged.lib"
+
+Sat Jun 04 19:38:30 UTC 2022 - Executing "echo {openlane 30f87f541d4e338b6793e46032350f26f64d8791} > /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/OPENLANE_VERSION"
+
+Sat Jun 04 19:38:30 UTC 2022 - Executing "openroad -python /openlane/scripts/new_tracks.py -i /openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/routing/config.tracks"
+
+Sat Jun 04 19:38:30 UTC 2022 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/synthesis/1-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+
+Sat Jun 04 19:38:30 UTC 2022 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl -l /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/synthesis/1-synthesis.log |& tee /dev/null"
+
+Sat Jun 04 19:38:31 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/results\/synthesis\/nor_gate.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:31 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 0/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:31 UTC 2022 - Executing "sed -i /defparam/d /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/synthesis/nor_gate.v"
+
+Sat Jun 04 19:38:31 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/synthesis/2-sta.log"
+
+Sat Jun 04 19:38:31 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/floorplan.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/floorplan/3-initial_fp.log"
+
+Sat Jun 04 19:38:32 UTC 2022 - Executing "openroad -python /openlane/scripts/defutil.py extract_core_dims --output-data /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/dimensions.txt --input-lef /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/merged.nom.lef /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/floorplan/3-initial_fp.def"
+
+Sat Jun 04 19:38:32 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/ioplacer.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/floorplan/4-io.log"
+
+Sat Jun 04 19:38:32 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/tapcell.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/floorplan/5-tap.log"
+
+Sat Jun 04 19:38:33 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/pdn.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/floorplan/6-pdn.log"
+
+Sat Jun 04 19:38:33 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/replace.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/placement/7-global.log"
+
+Sat Jun 04 19:38:34 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/resizer.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/placement/8-resizer.log"
+
+Sat Jun 04 19:38:34 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/placement/9-write_verilog.log"
+
+Sat Jun 04 19:38:34 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/results\/placement\/nor_gate.resized.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:34 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/results\/synthesis\/nor_gate.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:34 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/opendp.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/placement/10-detailed.log"
+
+Sat Jun 04 19:38:35 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/resizer_timing.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/cts/11-resizer.log"
+
+Sat Jun 04 19:38:35 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/cts/12-write_verilog.log"
+
+Sat Jun 04 19:38:36 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/results\/cts\/nor_gate.resized.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:36 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/results\/placement\/nor_gate.resized.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:36 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/resizer_routing_timing.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/routing/13-resizer.log"
+
+Sat Jun 04 19:38:36 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/routing/14-write_verilog.log"
+
+Sat Jun 04 19:38:36 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/results\/routing\/nor_gate.resized.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:36 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/results\/cts\/nor_gate.resized.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:36 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/opendp.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/routing/15-diode_legalization.log"
+
+Sat Jun 04 19:38:37 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/groute.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/routing/16-global.log"
+
+Sat Jun 04 19:38:37 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/fill.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/routing/17-fill.log"
+
+Sat Jun 04 19:38:37 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/routing/18-write_verilog_global.log"
+
+Sat Jun 04 19:38:38 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/tmp\/routing\/17-global.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:38 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/results\/routing\/nor_gate.resized.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:38 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/droute.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/routing/19-detailed.log"
+
+Sat Jun 04 19:38:38 UTC 2022 - Executing "openroad -python /openlane/scripts/tr_drc_to_klayout_drc.py -i /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/routing/detailed.drc -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/routing/detailed.klayout.xml --design-name nor_gate"
+
+Sat Jun 04 19:38:39 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/routing/20-write_verilog_detailed.log"
+
+Sat Jun 04 19:38:39 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/tmp\/routing\/19-detailed.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:39 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/tmp\/routing\/17-global.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:39 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/21-parasitics_extraction.min.log"
+
+Sat Jun 04 19:38:39 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/22-parasitics_multi_corner_sta.min.log"
+
+Sat Jun 04 19:38:41 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/23-parasitics_extraction.max.log"
+
+Sat Jun 04 19:38:41 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/24-parasitics_multi_corner_sta.max.log"
+
+Sat Jun 04 19:38:43 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/25-parasitics_extraction.nom.log"
+
+Sat Jun 04 19:38:43 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/26-parasitics_sta.log"
+
+Sat Jun 04 19:38:43 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/27-parasitics_multi_corner_sta.log"
+
+Sat Jun 04 19:38:45 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /openlane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/scripts/magic/mag_gds.tcl </dev/null |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/28-gdsii.log"
+
+Sat Jun 04 19:38:45 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /openlane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/scripts/magic/gds_pointers.tcl </dev/null |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/28-gds_ptrs.log"
+
+Sat Jun 04 19:38:45 UTC 2022 - Executing "sed -i -n {/^<< properties >>/,/^<< end >>/p} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/signoff/gds_ptrs.mag"
+
+Sat Jun 04 19:38:45 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /openlane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/scripts/magic/lef.tcl </dev/null |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/28-lef.log"
+
+Sat Jun 04 19:38:46 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /openlane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/scripts/magic/maglef.tcl </dev/null |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/28-maglef.log"
+
+Sat Jun 04 19:38:46 UTC 2022 - Executing "klayout -b -rm /openlane/scripts/klayout/def2gds.py -rd out_gds=/openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/signoff/nor_gate.klayout.gds -rd tech_file=/openlane/pdks/sky130A/libs.tech/klayout/sky130A.lyt -rd design_name=nor_gate -rd in_def=/openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/routing/nor_gate.def -rd {in_gds=/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds } -rd config_file= -rd seal_gds= -rd lef_file=/openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/merged.nom.lef |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/29-gdsii-klayout.log"
+
+Sat Jun 04 19:38:46 UTC 2022 - Executing "bash /openlane/scripts/klayout/xor.sh /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/signoff/nor_gate.gds /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/signoff/nor_gate.klayout.gds nor_gate /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/nor_gate.xor.gds |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/30-xor.log"
+
+Sat Jun 04 19:38:47 UTC 2022 - Executing "openroad -python /openlane/scripts/parse_klayout_xor_log.py -l /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/30-xor.log -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/30-xor.rpt"
+
+Sat Jun 04 19:38:47 UTC 2022 - Executing "bash /openlane/scripts/klayout/xor.sh /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/signoff/nor_gate.gds /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/signoff/nor_gate.klayout.gds nor_gate /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/nor_gate.xor.xml |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/30-xor.log"
+
+Sat Jun 04 19:38:47 UTC 2022 - Executing "openroad -python /openlane/scripts/parse_klayout_xor_log.py -l /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/30-xor.log -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/30-xor.rpt"
+
+Sat Jun 04 19:38:47 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /openlane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/signoff/spice.tcl </dev/null |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/31-spice.log"
+
+Sat Jun 04 19:38:48 UTC 2022 - Executing "openroad -python /openlane/scripts/write_powered_def.py -d /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/routing/nor_gate.def -l /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/merged.nom.lef --power-port VPWR --ground-port VGND --powered-netlist {} -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/signoff/31-powered_def.def |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/32-write_powered_def.log"
+
+Sat Jun 04 19:38:48 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl |& tee /dev/null /dev/null"
+
+Sat Jun 04 19:38:48 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/tmp\/signoff\/31-powered_netlist.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:48 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/current\/runs\/RUN__2022_06_04__22_38_28\/tmp\/routing\/19-detailed.v/} /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/config.tcl"
+
+Sat Jun 04 19:38:48 UTC 2022 - Executing "netgen -batch source /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/signoff/34-setup_file.lef.lvs |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/34-lef.log"
+
+Sat Jun 04 19:38:49 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /openlane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/scripts/magic/drc.tcl </dev/null |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/35-drc.log"
+
+Sat Jun 04 19:38:49 UTC 2022 - Executing "openroad -python /openlane/scripts/magic_drc_to_tcl.py -i /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/drc.rpt -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/drc.tcl"
+
+Sat Jun 04 19:38:49 UTC 2022 - Executing "openroad -python /openlane/scripts/magic_drc_to_tr_drc.py -i /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/drc.rpt -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/drc.tr"
+
+Sat Jun 04 19:38:49 UTC 2022 - Executing "openroad -python /openlane/scripts/tr_drc_to_klayout_drc.py -i /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/drc.tr -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/drc.klayout.xml --design-name nor_gate"
+
+Sat Jun 04 19:38:50 UTC 2022 - Executing "openroad -python /openlane/scripts/magic_drc_to_rdb.py --magic_drc_in /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/drc.rpt --rdb_out /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/signoff/drc.rdb"
+
+Sat Jun 04 19:38:50 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/antenna_check.tcl |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/36-antenna.log"
+
+Sat Jun 04 19:38:50 UTC 2022 - Executing "awk -v vdd=VPWR -v gnd=VGND -f /openlane/scripts/cvc/sky130A/power.awk /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/signoff/31-powered_netlist.v > /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/signoff/nor_gate.power"
+
+Sat Jun 04 19:38:50 UTC 2022 - Executing "awk -f /openlane/scripts/cvc/sky130A/cdl.awk /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/cdl/sky130_fd_sc_hd.cdl /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/signoff/nor_gate.lef.spice > /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/signoff/nor_gate.cdl"
+
+Sat Jun 04 19:38:50 UTC 2022 - Executing "cvc /openlane/scripts/cvc/sky130A/cvcrc.sky130A |& tee /dev/null /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/37-erc_screen.log"
+
+Sat Jun 04 19:38:50 UTC 2022 - Executing "openroad -python /openlane/scripts/generate_reports.py -d /openlane/designs/current --design_name nor_gate --tag RUN__2022_06_04__22_38_28 --output_file /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/metrics.csv --man_report /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/reports/manufacturability.rpt --run_path /openlane/designs/current/runs/RUN__2022_06_04__22_38_28"
+

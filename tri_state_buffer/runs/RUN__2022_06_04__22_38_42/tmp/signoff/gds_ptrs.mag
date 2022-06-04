@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 13168 15312
+string GDS_END 151038
+string GDS_FILE /openlane/designs/current/runs/RUN__2022_06_04__22_38_42/results/signoff/tri_state_buffer.magic.gds
+string GDS_START 41982
+<< end >>

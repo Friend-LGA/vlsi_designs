@@ -1,0 +1,17 @@
+
+Input: /openlane/designs/current/runs/RUN__2022_06_04__22_38_19/results/routing/inverter.def
+Output: /openlane/designs/current/runs/RUN__2022_06_04__22_38_19/results/signoff/inverter.klayout.gds
+Design: inverter
+Technology File: /openlane/pdks/sky130A/libs.tech/klayout/sky130A.lyt
+GDS File List: ['/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds']
+LEF File: /openlane/designs/current/runs/RUN__2022_06_04__22_38_19/tmp/merged.nom.lef
+
+[INFO] Clearing cells...
+[INFO] Merging GDS files...
+	/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+[INFO] Copying toplevel cell 'inverter'
+WARNING: no fill config file specified
+[INFO] Checking for missing GDS...
+[INFO] All LEF cells have matching GDS cells
+[INFO] Writing out GDS '/openlane/designs/current/runs/RUN__2022_06_04__22_38_19/results/signoff/inverter.klayout.gds'
+[INFO] Done.

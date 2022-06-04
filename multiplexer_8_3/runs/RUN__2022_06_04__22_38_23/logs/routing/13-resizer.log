@@ -1,0 +1,335 @@
+OpenROAD c1c315118e68926dfff368f85e13bf50adaa920f 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_23/tmp/merged.unpadded.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/current/runs/RUN__2022_06_04__22_38_23/tmp/merged.unpadded.nom.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_23/tmp/cts/11-resizer_timing.def
+[INFO ODB-0128] Design: multiplexer
+[INFO ODB-0130]     Created 14 pins.
+[INFO ODB-0131]     Created 264 components and 764 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 720 connections.
+[INFO ODB-0133]     Created 27 nets and 44 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_23/tmp/cts/11-resizer_timing.def
+###############################################################################
+# Created by write_sdc
+# Sat Jun  4 19:38:30 2022
+###############################################################################
+current_design multiplexer
+###############################################################################
+# Timing Constraints
+###############################################################################
+create_clock -name __VIRTUAL_CLK__ -period 10.0000 
+set_clock_uncertainty 0.2500 __VIRTUAL_CLK__
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {in[0]}]
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {in[1]}]
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {in[2]}]
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {in[3]}]
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {in[4]}]
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {in[5]}]
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {in[6]}]
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {in[7]}]
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {sel[0]}]
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {sel[1]}]
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {sel[2]}]
+set_output_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {out}]
+###############################################################################
+# Environment
+###############################################################################
+set_load -pin_load 0.0334 [get_ports {out}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {in[7]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {in[6]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {in[5]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {in[4]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {in[3]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {in[2]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {in[1]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {in[0]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {sel[2]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {sel[1]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {sel[0]}]
+set_timing_derate -early 0.9500
+set_timing_derate -late 1.0500
+###############################################################################
+# Design Rules
+###############################################################################
+set_max_fanout 5.0000 [current_design]
+[WARNING STA-0357] virtual clock __VIRTUAL_CLK__ can not be propagated.
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met1. 
+[INFO]: Setting signal max routing layer to: met5 and clock max routing layer to met5. 
+-congestion_iterations 50 -verbose
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[WARNING GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0019] Found 0 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 3
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0004] Blockages: 44
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal       6460          3637          43.70%
+met2       Vertical         4845          3240          33.13%
+met3       Horizontal       3230          2144          33.62%
+met4       Vertical         1938          1238          36.12%
+met5       Horizontal        646           288          55.42%
+---------------------------------------------------------------
+
+[INFO GRT-0197] Via related to pin nodes: 74
+[INFO GRT-0198] Via related Steiner nodes: 0
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 100
+[INFO GRT-0112] Final usage 3D: 467
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1              3637            80            2.20%             0 /  0 /  0
+met2              3240            87            2.69%             0 /  0 /  0
+met3              2144             0            0.00%             0 /  0 /  0
+met4              1238             0            0.00%             0 /  0 /  0
+met5               288             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total            10547           167            1.58%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 1745 um
+[INFO]: Setting RC values...
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL            1132.8 u
+legalized HPWL           1166.2 u
+delta HPWL                    3 %
+
+[INFO DPL-0020] Mirrored 6 instances
+[INFO DPL-0021] HPWL before            1166.2 u
+[INFO DPL-0022] HPWL after             1132.8 u
+[INFO DPL-0023] HPWL delta               -2.9 %
+min_report
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+Startpoint: sel[2] (input port clocked by __VIRTUAL_CLK__)
+Endpoint: out (output port clocked by __VIRTUAL_CLK__)
+Path Group: __VIRTUAL_CLK__
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.00    2.00 ^ input external delay
+                  0.02    0.01    2.01 ^ sel[2] (in)
+     1    0.00                           sel[2] (net)
+                  0.02    0.00    2.01 ^ input11/A (sky130_fd_sc_hd__clkbuf_1)
+                  0.13    0.12    2.13 ^ input11/X (sky130_fd_sc_hd__clkbuf_1)
+     1    0.01                           net11 (net)
+                  0.13    0.00    2.13 ^ _5_/S (sky130_fd_sc_hd__mux2_1)
+                  0.04    0.14    2.27 ^ _5_/X (sky130_fd_sc_hd__mux2_1)
+     1    0.00                           _2_ (net)
+                  0.04    0.00    2.27 ^ _6_/A (sky130_fd_sc_hd__clkbuf_1)
+                  0.10    0.11    2.38 ^ _6_/X (sky130_fd_sc_hd__clkbuf_1)
+     1    0.01                           net12 (net)
+                  0.10    0.00    2.39 ^ output12/A (sky130_fd_sc_hd__buf_2)
+                  0.18    0.21    2.60 ^ output12/X (sky130_fd_sc_hd__buf_2)
+     1    0.03                           out (net)
+                  0.18    0.00    2.60 ^ out (out)
+                                  2.60   data arrival time
+
+                  0.00    0.00    0.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.25    0.25   clock uncertainty
+                          0.00    0.25   clock reconvergence pessimism
+                         -2.00   -1.75   output external delay
+                                 -1.75   data required time
+-----------------------------------------------------------------------------
+                                 -1.75   data required time
+                                 -2.60   data arrival time
+-----------------------------------------------------------------------------
+                                  4.35   slack (MET)
+
+
+min_report_end
+max_report
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+Startpoint: sel[0] (input port clocked by __VIRTUAL_CLK__)
+Endpoint: out (output port clocked by __VIRTUAL_CLK__)
+Path Group: __VIRTUAL_CLK__
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.00    2.00 ^ input external delay
+                  0.03    0.02    2.02 ^ sel[0] (in)
+     1    0.01                           sel[0] (net)
+                  0.03    0.00    2.02 ^ input9/A (sky130_fd_sc_hd__dlymetal6s2s_1)
+                  0.20    0.20    2.22 ^ input9/X (sky130_fd_sc_hd__dlymetal6s2s_1)
+     2    0.02                           net9 (net)
+                  0.20    0.00    2.22 ^ _4_/S0 (sky130_fd_sc_hd__mux4_1)
+                  0.09    0.60    2.82 v _4_/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           _1_ (net)
+                  0.09    0.00    2.82 v _5_/A1 (sky130_fd_sc_hd__mux2_1)
+                  0.06    0.31    3.14 v _5_/X (sky130_fd_sc_hd__mux2_1)
+     1    0.00                           _2_ (net)
+                  0.06    0.00    3.14 v _6_/A (sky130_fd_sc_hd__clkbuf_1)
+                  0.05    0.12    3.26 v _6_/X (sky130_fd_sc_hd__clkbuf_1)
+     1    0.01                           net12 (net)
+                  0.05    0.00    3.26 v output12/A (sky130_fd_sc_hd__buf_2)
+                  0.09    0.19    3.45 v output12/X (sky130_fd_sc_hd__buf_2)
+     1    0.03                           out (net)
+                  0.09    0.00    3.45 v out (out)
+                                  3.45   data arrival time
+
+                  0.00   10.00   10.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                         -0.25    9.75   clock uncertainty
+                          0.00    9.75   clock reconvergence pessimism
+                         -2.00    7.75   output external delay
+                                  7.75   data required time
+-----------------------------------------------------------------------------
+                                  7.75   data required time
+                                 -3.45   data arrival time
+-----------------------------------------------------------------------------
+                                  4.30   slack (MET)
+
+
+max_report_end
+check_report
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: sel[0] (input port clocked by __VIRTUAL_CLK__)
+Endpoint: out (output port clocked by __VIRTUAL_CLK__)
+Path Group: __VIRTUAL_CLK__
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.00    2.00 ^ input external delay
+                  0.03    0.02    2.02 ^ sel[0] (in)
+     1    0.01                           sel[0] (net)
+                  0.03    0.00    2.02 ^ input9/A (sky130_fd_sc_hd__dlymetal6s2s_1)
+                  0.20    0.20    2.22 ^ input9/X (sky130_fd_sc_hd__dlymetal6s2s_1)
+     2    0.02                           net9 (net)
+                  0.20    0.00    2.22 ^ _4_/S0 (sky130_fd_sc_hd__mux4_1)
+                  0.09    0.60    2.82 v _4_/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           _1_ (net)
+                  0.09    0.00    2.82 v _5_/A1 (sky130_fd_sc_hd__mux2_1)
+                  0.06    0.31    3.14 v _5_/X (sky130_fd_sc_hd__mux2_1)
+     1    0.00                           _2_ (net)
+                  0.06    0.00    3.14 v _6_/A (sky130_fd_sc_hd__clkbuf_1)
+                  0.05    0.12    3.26 v _6_/X (sky130_fd_sc_hd__clkbuf_1)
+     1    0.01                           net12 (net)
+                  0.05    0.00    3.26 v output12/A (sky130_fd_sc_hd__buf_2)
+                  0.09    0.19    3.45 v output12/X (sky130_fd_sc_hd__buf_2)
+     1    0.03                           out (net)
+                  0.09    0.00    3.45 v out (out)
+                                  3.45   data arrival time
+
+                  0.00   10.00   10.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                         -0.25    9.75   clock uncertainty
+                          0.00    9.75   clock reconvergence pessimism
+                         -2.00    7.75   output external delay
+                                  7.75   data required time
+-----------------------------------------------------------------------------
+                                  7.75   data required time
+                                 -3.45   data arrival time
+-----------------------------------------------------------------------------
+                                  4.30   slack (MET)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.
+check_report_end
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack 4.30
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack 4.35
+worst_slack_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          3.03e-06   3.63e-06   3.14e-10   6.66e-06 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  3.03e-06   3.63e-06   3.14e-10   6.66e-06 100.0%
+                          45.5%      54.5%       0.0%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 633 u^2 5% utilization.
+area_report_end

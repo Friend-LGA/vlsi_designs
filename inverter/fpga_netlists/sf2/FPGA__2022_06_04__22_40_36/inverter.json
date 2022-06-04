@@ -1,0 +1,2613 @@
+{
+  "creator": "Yosys 0.17+33 (git sha1 0b1a1a576, gcc 11.2.0-19ubuntu1 -fPIC -Os)",
+  "modules": {
+    "AND2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:3.1-8.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:4.8-4.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:4.11-4.12"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:5.9-5.10"
+          }
+        }
+      }
+    },
+    "AND3": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:10.1-15.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:11.8-11.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:11.11-11.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:11.14-11.15"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:12.9-12.10"
+          }
+        }
+      }
+    },
+    "AND4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:17.1-22.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:18.8-18.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:18.11-18.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:18.14-18.15"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:18.17-18.18"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:19.9-19.10"
+          }
+        }
+      }
+    },
+    "BIBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:329.1-338.10"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "PAD": {
+          "direction": "inout",
+          "bits": [ 4 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:330.8-330.9"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:331.8-331.9"
+          }
+        },
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:333.8-333.11"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:334.9-334.10"
+          }
+        }
+      }
+    },
+    "BIBUF_DIFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:341.1-350.10"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "PADP": {
+          "direction": "inout",
+          "bits": [ 4 ]
+        },
+        "PADN": {
+          "direction": "inout",
+          "bits": [ 5 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:342.8-342.9"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:343.8-343.9"
+          }
+        },
+        "PADN": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:347.8-347.12"
+          }
+        },
+        "PADP": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:345.8-345.12"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:348.9-348.10"
+          }
+        }
+      }
+    },
+    "BUFD": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:69.1-74.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:70.8-70.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:71.9-71.10"
+          }
+        }
+      }
+    },
+    "BUFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:62.1-67.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:63.8-63.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:64.9-64.10"
+          }
+        }
+      }
+    },
+    "CFG1": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:24.1-30.10"
+      },
+      "parameter_default_values": {
+        "INIT": "00"
+      },
+      "ports": {
+        "Y": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:26.8-26.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:25.9-25.10"
+          }
+        }
+      }
+    },
+    "CFG2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:32.1-39.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000"
+      },
+      "ports": {
+        "Y": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:34.8-34.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:35.8-35.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:33.9-33.10"
+          }
+        }
+      }
+    },
+    "CFG3": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:41.1-49.10"
+      },
+      "parameter_default_values": {
+        "INIT": "00000000"
+      },
+      "ports": {
+        "Y": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:43.8-43.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:44.8-44.9"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:45.8-45.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:42.9-42.10"
+          }
+        }
+      }
+    },
+    "CFG4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:51.1-60.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000000000000000"
+      },
+      "ports": {
+        "Y": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:53.8-53.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:54.8-54.9"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:55.8-55.9"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:56.8-56.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:52.9-52.10"
+          }
+        }
+      }
+    },
+    "CLKBIBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:352.1-362.10"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "PAD": {
+          "direction": "inout",
+          "bits": [ 4 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:353.8-353.9"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:354.8-354.9"
+          }
+        },
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:356.8-356.11"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:358.9-358.10"
+          }
+        }
+      }
+    },
+    "CLKBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:364.1-371.10"
+      },
+      "ports": {
+        "PAD": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:366.8-366.11"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:368.9-368.10"
+          }
+        }
+      }
+    },
+    "CLKBUF_DIFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:374.1-382.10"
+      },
+      "ports": {
+        "PADP": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "PADN": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "PADN": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:378.8-378.12"
+          }
+        },
+        "PADP": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:376.8-376.12"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:380.9-380.10"
+          }
+        }
+      }
+    },
+    "CLKINT": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:76.1-82.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:77.8-77.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:79.9-79.10"
+          }
+        }
+      }
+    },
+    "CLKINT_PRESERVE": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:84.1-90.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:85.8-85.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:87.9-87.10"
+          }
+        }
+      }
+    },
+    "GCLKBIBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:187.1-196.10"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "EN": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "PAD": {
+          "direction": "inout",
+          "bits": [ 5 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:188.8-188.9"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:189.8-189.9"
+          }
+        },
+        "EN": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:190.8-190.10"
+          }
+        },
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:192.8-192.11"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:194.9-194.10"
+          }
+        }
+      }
+    },
+    "GCLKBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:165.1-172.10"
+      },
+      "ports": {
+        "PAD": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "EN": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "EN": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:168.8-168.10"
+          }
+        },
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:167.8-167.11"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:170.9-170.10"
+          }
+        }
+      }
+    },
+    "GCLKBUF_DIFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:175.1-184.10"
+      },
+      "ports": {
+        "PADP": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "PADN": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "EN": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "EN": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:180.8-180.10"
+          }
+        },
+        "PADN": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:179.8-179.12"
+          }
+        },
+        "PADP": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:177.8-177.12"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:182.9-182.10"
+          }
+        }
+      }
+    },
+    "GCLKINT": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:92.1-98.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "EN": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:93.8-93.9"
+          }
+        },
+        "EN": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:93.11-93.13"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:95.9-95.10"
+          }
+        }
+      }
+    },
+    "INBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:384.1-390.10"
+      },
+      "ports": {
+        "PAD": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:386.8-386.11"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:387.9-387.10"
+          }
+        }
+      }
+    },
+    "INBUF_DIFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:393.1-400.10"
+      },
+      "ports": {
+        "PADP": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "PADN": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "PADN": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:397.8-397.12"
+          }
+        },
+        "PADP": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:395.8-395.12"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:398.9-398.10"
+          }
+        }
+      }
+    },
+    "INV": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:208.1-213.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:209.8-209.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:210.9-210.10"
+          }
+        }
+      }
+    },
+    "INVD": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:215.1-220.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:216.8-216.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:217.9-217.10"
+          }
+        }
+      }
+    },
+    "MX2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:222.1-227.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "S": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:223.8-223.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:223.11-223.12"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:223.14-223.15"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:224.9-224.10"
+          }
+        }
+      }
+    },
+    "MX4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:229.1-234.10"
+      },
+      "ports": {
+        "D0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "D1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "D2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D3": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "S0": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "S1": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 8 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:230.8-230.10"
+          }
+        },
+        "D1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:230.12-230.14"
+          }
+        },
+        "D2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:230.16-230.18"
+          }
+        },
+        "D3": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:230.20-230.22"
+          }
+        },
+        "S0": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:230.24-230.26"
+          }
+        },
+        "S1": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:230.28-230.30"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:231.9-231.10"
+          }
+        }
+      }
+    },
+    "NAND2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:236.1-241.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:237.8-237.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:237.11-237.12"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:238.9-238.10"
+          }
+        }
+      }
+    },
+    "NAND3": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:243.1-248.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:244.8-244.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:244.11-244.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:244.14-244.15"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:245.9-245.10"
+          }
+        }
+      }
+    },
+    "NAND4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:250.1-255.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:251.8-251.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:251.11-251.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:251.14-251.15"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:251.17-251.18"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:252.9-252.10"
+          }
+        }
+      }
+    },
+    "NOR2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:257.1-262.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:258.8-258.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:258.11-258.12"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:259.9-259.10"
+          }
+        }
+      }
+    },
+    "NOR3": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:264.1-269.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:265.8-265.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:265.11-265.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:265.14-265.15"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:266.9-266.10"
+          }
+        }
+      }
+    },
+    "NOR4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:271.1-276.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:272.8-272.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:272.11-272.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:272.14-272.15"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:272.17-272.18"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:273.9-273.10"
+          }
+        }
+      }
+    },
+    "OR2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:278.1-283.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:279.8-279.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:279.11-279.12"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:280.9-280.10"
+          }
+        }
+      }
+    },
+    "OR3": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:285.1-290.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:286.8-286.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:286.11-286.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:286.14-286.15"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:287.9-287.10"
+          }
+        }
+      }
+    },
+    "OR4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:292.1-297.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:293.8-293.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:293.11-293.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:293.14-293.15"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:293.17-293.18"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:294.9-294.10"
+          }
+        }
+      }
+    },
+    "OUTBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:402.1-408.10"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "PAD": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:403.8-403.9"
+          }
+        },
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:405.9-405.12"
+          }
+        }
+      }
+    },
+    "OUTBUF_DIFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:411.1-418.10"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "PADP": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "PADN": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:412.8-412.9"
+          }
+        },
+        "PADN": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:416.9-416.13"
+          }
+        },
+        "PADP": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:414.9-414.13"
+          }
+        }
+      }
+    },
+    "RCLKINT": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:100.1-106.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:101.8-101.9"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:103.9-103.10"
+          }
+        }
+      }
+    },
+    "RGCLKINT": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:108.1-114.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "EN": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:109.8-109.9"
+          }
+        },
+        "EN": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:109.11-109.13"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "clkbuf_driver": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:111.9-111.10"
+          }
+        }
+      }
+    },
+    "SLE": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:116.1-153.10"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "ADn": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "ALn": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "LAT": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "SD": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "EN": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "SLn": {
+          "direction": "input",
+          "bits": [ 10 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "ADn": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:118.8-118.11"
+          }
+        },
+        "ALn": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:119.8-119.11"
+          }
+        },
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "clkbuf_sink": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:121.8-121.11"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:122.8-122.9"
+          }
+        },
+        "EN": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:125.8-125.10"
+          }
+        },
+        "LAT": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:123.8-123.11"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:117.9-117.10"
+          }
+        },
+        "SD": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:124.8-124.10"
+          }
+        },
+        "SLn": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:126.8-126.11"
+          }
+        }
+      }
+    },
+    "TRIBUFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:420.1-427.10"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "PAD": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:421.8-421.9"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:422.8-422.9"
+          }
+        },
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:424.9-424.12"
+          }
+        }
+      }
+    },
+    "TRIBUFF_DIFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:430.1-438.10"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "PADP": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "PADN": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:431.8-431.9"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:432.8-432.9"
+          }
+        },
+        "PADN": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:436.9-436.13"
+          }
+        },
+        "PADP": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_sim.v:434.9-434.13"
+          }
+        }
+      }
+    },
+    "XOR2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:299.1-304.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:300.8-300.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:300.11-300.12"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:301.9-301.10"
+          }
+        }
+      }
+    },
+    "XOR3": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:306.1-311.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:307.8-307.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:307.11-307.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:307.14-307.15"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:308.9-308.10"
+          }
+        }
+      }
+    },
+    "XOR4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:313.1-318.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:314.8-314.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:314.11-314.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:314.14-314.15"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:314.17-314.18"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:315.9-315.10"
+          }
+        }
+      }
+    },
+    "XOR8": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/sf2/cells_sim.v:320.1-325.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "F": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "G": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "H": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 10 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:321.8-321.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:321.11-321.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:321.14-321.15"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:321.17-321.18"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:321.20-321.21"
+          }
+        },
+        "F": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:321.23-321.24"
+          }
+        },
+        "G": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:321.26-321.27"
+          }
+        },
+        "H": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:321.29-321.30"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/yosys/share/sf2/cells_sim.v:322.9-322.10"
+          }
+        }
+      }
+    },
+    "inverter": {
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "inverter.v:1.1-8.10"
+      },
+      "ports": {
+        "in": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "out": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+        "$abc$80$auto$blifparse.cc:515:parse_blif$81": {
+          "hide_name": 1,
+          "type": "CFG1",
+          "parameters": {
+            "INIT": "01"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/yosys/share/sf2/cells_map.v:36.26-36.61"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "Y": [ 5 ]
+          }
+        },
+        "$iopadmap$inverter.in": {
+          "hide_name": 1,
+          "type": "INBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "keep": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "PAD": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "PAD": [ 2 ],
+            "Y": [ 4 ]
+          }
+        },
+        "$iopadmap$inverter.out": {
+          "hide_name": 1,
+          "type": "OUTBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "keep": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "D": "input",
+            "PAD": "output"
+          },
+          "connections": {
+            "D": [ 5 ],
+            "PAD": [ 3 ]
+          }
+        }
+      },
+      "netnames": {
+        "$iopadmap$in": {
+          "hide_name": 1,
+          "bits": [ 4 ],
+          "attributes": {
+          }
+        },
+        "$iopadmap$out": {
+          "hide_name": 1,
+          "bits": [ 5 ],
+          "attributes": {
+          }
+        },
+        "in": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "inverter.v:2.14-2.16"
+          }
+        },
+        "out": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "inverter.v:3.15-3.18"
+          }
+        }
+      }
+    }
+  }
+}

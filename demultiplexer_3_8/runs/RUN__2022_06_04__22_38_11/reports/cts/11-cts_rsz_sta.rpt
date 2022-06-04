@@ -1,0 +1,49 @@
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: sel[2] (input port clocked by __VIRTUAL_CLK__)
+Endpoint: out[0] (output port clocked by __VIRTUAL_CLK__)
+Path Group: __VIRTUAL_CLK__
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.00    2.00 v input external delay
+                  0.01    0.00    2.00 v sel[2] (in)
+     1    0.00                           sel[2] (net)
+                  0.01    0.00    2.00 v input4/A (sky130_fd_sc_hd__dlymetal6s2s_1)
+                  0.09    0.18    2.18 v input4/X (sky130_fd_sc_hd__dlymetal6s2s_1)
+     4    0.02                           net4 (net)
+                  0.09    0.00    2.18 v _12_/A (sky130_fd_sc_hd__dlymetal6s2s_1)
+                  0.08    0.21    2.39 v _12_/X (sky130_fd_sc_hd__dlymetal6s2s_1)
+     5    0.01                           _01_ (net)
+                  0.08    0.00    2.39 v _15_/B (sky130_fd_sc_hd__nor4b_2)
+                  0.41    0.45    2.84 ^ _15_/Y (sky130_fd_sc_hd__nor4b_2)
+     1    0.01                           net5 (net)
+                  0.41    0.00    2.84 ^ output5/A (sky130_fd_sc_hd__buf_2)
+                  0.18    0.31    3.15 ^ output5/X (sky130_fd_sc_hd__buf_2)
+     1    0.03                           out[0] (net)
+                  0.18    0.00    3.15 ^ out[0] (out)
+                                  3.15   data arrival time
+
+                  0.00   10.00   10.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                         -0.25    9.75   clock uncertainty
+                          0.00    9.75   clock reconvergence pessimism
+                         -2.00    7.75   output external delay
+                                  7.75   data required time
+-----------------------------------------------------------------------------
+                                  7.75   data required time
+                                 -3.15   data arrival time
+-----------------------------------------------------------------------------
+                                  4.60   slack (MET)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.

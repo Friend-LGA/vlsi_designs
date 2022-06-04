@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 13615 15759
+string GDS_END 142872
+string GDS_FILE /openlane/designs/current/runs/RUN__2022_06_04__22_38_48/results/signoff/xor_gate.magic.gds
+string GDS_START 34124
+<< end >>

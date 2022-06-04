@@ -1,0 +1,24 @@
+[INFO]: Current run directory is /openlane/designs/current/runs/RUN__2022_06_04__22_38_15
+[INFO]: Preparing LEF files for the nom corner...
+[INFO]: Preparing LEF files for the min corner...
+[INFO]: Preparing LEF files for the max corner...
+[INFO]: Running Synthesis...
+[ERROR]: during executing: "yosys -c /openlane/scripts/yosys/synth.tcl -l /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/logs/synthesis/1-synthesis.log |& tee /dev/null"
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /openlane/designs/current/src/half_adder.sv
+ERROR: No such module: buffer
+child process exited abnormally
+
+[INFO]: Generating final set of reports...
+[INFO]: Created manufacturability report at 'designs/current/runs/RUN__2022_06_04__22_38_15/reports/manufacturability.rpt'.
+[INFO]: Created metrics report at 'designs/current/runs/RUN__2022_06_04__22_38_15/reports/metrics.csv'.
+[INFO]: Saving runtime environment...
+[ERROR]: Flow failed.

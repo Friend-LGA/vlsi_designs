@@ -1,0 +1,34 @@
+OpenROAD c1c315118e68926dfff368f85e13bf50adaa920f 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_42/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/current/runs/RUN__2022_06_04__22_38_42/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_42/results/routing/tri_state_buffer.def
+[INFO ODB-0128] Design: tri_state_buffer
+[INFO ODB-0130]     Created 5 pins.
+[INFO ODB-0131]     Created 348 components and 1313 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 1304 connections.
+[INFO ODB-0133]     Created 6 nets and 9 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_42/results/routing/tri_state_buffer.def
+[WARNING STA-0357] virtual clock __VIRTUAL_CLK__ can not be propagated.
+Using RCX ruleset '/openlane/pdks/sky130A/libs.tech/openlane/rules.openrcx.sky130A.nom.spef_extractor'...
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0008] extracting parasitics of tri_state_buffer ...
+[INFO RCX-0435] Reading extraction model file /openlane/pdks/sky130A/libs.tech/openlane/rules.openrcx.sky130A.nom.spef_extractor ...
+[INFO RCX-0436] RC segment generation tri_state_buffer (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 8 rc segments
+[INFO RCX-0439] Coupling Cap extraction tri_state_buffer ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0043] 52 wires to be extracted
+[INFO RCX-0442] 71% completion -- 37 wires have been extracted
+[INFO RCX-0442] 100% completion -- 52 wires have been extracted
+[INFO RCX-0045] Extract 6 nets, 14 rsegs, 14 caps, 0 ccs
+[INFO RCX-0015] Finished extracting tri_state_buffer.
+Writing result to /openlane/designs/current/runs/RUN__2022_06_04__22_38_42/results/routing/tri_state_buffer.nom.spef...
+[INFO RCX-0016] Writing SPEF ...
+[INFO RCX-0443] 6 nets finished
+[INFO RCX-0017] Finished writing SPEF ...

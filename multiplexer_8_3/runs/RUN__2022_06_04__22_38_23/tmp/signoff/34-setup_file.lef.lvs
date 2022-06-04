@@ -1,0 +1,1 @@
+lvs {/openlane/designs/current/runs/RUN__2022_06_04__22_38_23/results/signoff/multiplexer.spice multiplexer} {/openlane/designs/current/runs/RUN__2022_06_04__22_38_23/tmp/signoff/31-powered_netlist.v multiplexer} /openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/current/runs/RUN__2022_06_04__22_38_23/logs/signoff/34-multiplexer.lef.log -json

@@ -1,0 +1,2245 @@
+{
+  "creator": "Yosys 0.17+33 (git sha1 0b1a1a576, gcc 11.2.0-19ubuntu1 -fPIC -Os)",
+  "modules": {
+    "$__FACADE_INPAD": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:329.1-329.56"
+      },
+      "ports": {
+        "I": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:329.33-329.34"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:329.43-329.44"
+          }
+        }
+      }
+    },
+    "$__FACADE_OUTPAD": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:327.1-327.57"
+      },
+      "ports": {
+        "I": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:327.34-327.35"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:327.44-327.45"
+          }
+        }
+      }
+    },
+    "$__FACADE_TINOUTPAD": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:333.1-333.72"
+      },
+      "ports": {
+        "I": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "T": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "B": {
+          "direction": "inout",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "B": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:333.59-333.60"
+          }
+        },
+        "I": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:333.37-333.38"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:333.50-333.51"
+          }
+        },
+        "T": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:333.40-333.41"
+          }
+        }
+      }
+    },
+    "$__FACADE_TOUTPAD": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:331.1-331.61"
+      },
+      "ports": {
+        "I": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "T": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:331.35-331.36"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:331.48-331.49"
+          }
+        },
+        "T": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:331.38-331.39"
+          }
+        }
+      }
+    },
+    "DCCA": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:186.1-191.10"
+      },
+      "ports": {
+        "CLKI": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CE": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "CLKO": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CE": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:188.8-188.10"
+          }
+        },
+        "CLKI": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:187.8-187.12"
+          }
+        },
+        "CLKO": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:189.9-189.13"
+          }
+        }
+      }
+    },
+    "DCMA": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:194.1-200.10"
+      },
+      "ports": {
+        "CLK0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "SEL": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "DCMOUT": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:195.8-195.12"
+          }
+        },
+        "CLK1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:196.8-196.12"
+          }
+        },
+        "DCMOUT": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:198.9-198.15"
+          }
+        },
+        "SEL": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:197.8-197.11"
+          }
+        }
+      }
+    },
+    "DP8KC": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:258.1-321.10"
+      },
+      "parameter_default_values": {
+        "ASYNC_RESET_RELEASE": "SYNC",
+        "CSDECODE_A": "0b000",
+        "CSDECODE_B": "0b000",
+        "DATA_WIDTH_A": "00000000000000000000000000001001",
+        "DATA_WIDTH_B": "00000000000000000000000000001001",
+        "GSR": "ENABLED",
+        "INITVAL_00": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_01": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_02": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_03": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_04": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_05": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_06": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_07": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_08": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_09": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_0A": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_0B": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_0C": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_0D": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_0E": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_0F": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_10": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_11": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_12": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_13": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_14": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_15": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_16": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_17": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_18": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_19": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_1A": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_1B": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_1C": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_1D": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_1E": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INITVAL_1F": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000 ",
+        "INIT_DATA": "STATIC",
+        "REGMODE_A": "NOREG",
+        "REGMODE_B": "NOREG",
+        "RESETMODE": "SYNC",
+        "WRITEMODE_A": "NORMAL",
+        "WRITEMODE_B": "NORMAL"
+      },
+      "ports": {
+        "DIA8": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "DIA7": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "DIA6": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "DIA5": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "DIA4": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "DIA3": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "DIA2": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "DIA1": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "DIA0": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "ADA12": {
+          "direction": "input",
+          "bits": [ 11 ]
+        },
+        "ADA11": {
+          "direction": "input",
+          "bits": [ 12 ]
+        },
+        "ADA10": {
+          "direction": "input",
+          "bits": [ 13 ]
+        },
+        "ADA9": {
+          "direction": "input",
+          "bits": [ 14 ]
+        },
+        "ADA8": {
+          "direction": "input",
+          "bits": [ 15 ]
+        },
+        "ADA7": {
+          "direction": "input",
+          "bits": [ 16 ]
+        },
+        "ADA6": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "ADA5": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "ADA4": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "ADA3": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "ADA2": {
+          "direction": "input",
+          "bits": [ 21 ]
+        },
+        "ADA1": {
+          "direction": "input",
+          "bits": [ 22 ]
+        },
+        "ADA0": {
+          "direction": "input",
+          "bits": [ 23 ]
+        },
+        "CEA": {
+          "direction": "input",
+          "bits": [ 24 ]
+        },
+        "OCEA": {
+          "direction": "input",
+          "bits": [ 25 ]
+        },
+        "CLKA": {
+          "direction": "input",
+          "bits": [ 26 ]
+        },
+        "WEA": {
+          "direction": "input",
+          "bits": [ 27 ]
+        },
+        "RSTA": {
+          "direction": "input",
+          "bits": [ 28 ]
+        },
+        "CSA2": {
+          "direction": "input",
+          "bits": [ 29 ]
+        },
+        "CSA1": {
+          "direction": "input",
+          "bits": [ 30 ]
+        },
+        "CSA0": {
+          "direction": "input",
+          "bits": [ 31 ]
+        },
+        "DOA8": {
+          "direction": "output",
+          "bits": [ 32 ]
+        },
+        "DOA7": {
+          "direction": "output",
+          "bits": [ 33 ]
+        },
+        "DOA6": {
+          "direction": "output",
+          "bits": [ 34 ]
+        },
+        "DOA5": {
+          "direction": "output",
+          "bits": [ 35 ]
+        },
+        "DOA4": {
+          "direction": "output",
+          "bits": [ 36 ]
+        },
+        "DOA3": {
+          "direction": "output",
+          "bits": [ 37 ]
+        },
+        "DOA2": {
+          "direction": "output",
+          "bits": [ 38 ]
+        },
+        "DOA1": {
+          "direction": "output",
+          "bits": [ 39 ]
+        },
+        "DOA0": {
+          "direction": "output",
+          "bits": [ 40 ]
+        },
+        "DIB8": {
+          "direction": "input",
+          "bits": [ 41 ]
+        },
+        "DIB7": {
+          "direction": "input",
+          "bits": [ 42 ]
+        },
+        "DIB6": {
+          "direction": "input",
+          "bits": [ 43 ]
+        },
+        "DIB5": {
+          "direction": "input",
+          "bits": [ 44 ]
+        },
+        "DIB4": {
+          "direction": "input",
+          "bits": [ 45 ]
+        },
+        "DIB3": {
+          "direction": "input",
+          "bits": [ 46 ]
+        },
+        "DIB2": {
+          "direction": "input",
+          "bits": [ 47 ]
+        },
+        "DIB1": {
+          "direction": "input",
+          "bits": [ 48 ]
+        },
+        "DIB0": {
+          "direction": "input",
+          "bits": [ 49 ]
+        },
+        "ADB12": {
+          "direction": "input",
+          "bits": [ 50 ]
+        },
+        "ADB11": {
+          "direction": "input",
+          "bits": [ 51 ]
+        },
+        "ADB10": {
+          "direction": "input",
+          "bits": [ 52 ]
+        },
+        "ADB9": {
+          "direction": "input",
+          "bits": [ 53 ]
+        },
+        "ADB8": {
+          "direction": "input",
+          "bits": [ 54 ]
+        },
+        "ADB7": {
+          "direction": "input",
+          "bits": [ 55 ]
+        },
+        "ADB6": {
+          "direction": "input",
+          "bits": [ 56 ]
+        },
+        "ADB5": {
+          "direction": "input",
+          "bits": [ 57 ]
+        },
+        "ADB4": {
+          "direction": "input",
+          "bits": [ 58 ]
+        },
+        "ADB3": {
+          "direction": "input",
+          "bits": [ 59 ]
+        },
+        "ADB2": {
+          "direction": "input",
+          "bits": [ 60 ]
+        },
+        "ADB1": {
+          "direction": "input",
+          "bits": [ 61 ]
+        },
+        "ADB0": {
+          "direction": "input",
+          "bits": [ 62 ]
+        },
+        "CEB": {
+          "direction": "input",
+          "bits": [ 63 ]
+        },
+        "OCEB": {
+          "direction": "input",
+          "bits": [ 64 ]
+        },
+        "CLKB": {
+          "direction": "input",
+          "bits": [ 65 ]
+        },
+        "WEB": {
+          "direction": "input",
+          "bits": [ 66 ]
+        },
+        "RSTB": {
+          "direction": "input",
+          "bits": [ 67 ]
+        },
+        "CSB2": {
+          "direction": "input",
+          "bits": [ 68 ]
+        },
+        "CSB1": {
+          "direction": "input",
+          "bits": [ 69 ]
+        },
+        "CSB0": {
+          "direction": "input",
+          "bits": [ 70 ]
+        },
+        "DOB8": {
+          "direction": "output",
+          "bits": [ 71 ]
+        },
+        "DOB7": {
+          "direction": "output",
+          "bits": [ 72 ]
+        },
+        "DOB6": {
+          "direction": "output",
+          "bits": [ 73 ]
+        },
+        "DOB5": {
+          "direction": "output",
+          "bits": [ 74 ]
+        },
+        "DOB4": {
+          "direction": "output",
+          "bits": [ 75 ]
+        },
+        "DOB3": {
+          "direction": "output",
+          "bits": [ 76 ]
+        },
+        "DOB2": {
+          "direction": "output",
+          "bits": [ 77 ]
+        },
+        "DOB1": {
+          "direction": "output",
+          "bits": [ 78 ]
+        },
+        "DOB0": {
+          "direction": "output",
+          "bits": [ 79 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "ADA0": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.84-260.88"
+          }
+        },
+        "ADA1": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.78-260.82"
+          }
+        },
+        "ADA10": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.23-260.28"
+          }
+        },
+        "ADA11": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.16-260.21"
+          }
+        },
+        "ADA12": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.9-260.14"
+          }
+        },
+        "ADA2": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.72-260.76"
+          }
+        },
+        "ADA3": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.66-260.70"
+          }
+        },
+        "ADA4": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.60-260.64"
+          }
+        },
+        "ADA5": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.54-260.58"
+          }
+        },
+        "ADA6": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.48-260.52"
+          }
+        },
+        "ADA7": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.42-260.46"
+          }
+        },
+        "ADA8": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.36-260.40"
+          }
+        },
+        "ADA9": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:260.30-260.34"
+          }
+        },
+        "ADB0": {
+          "hide_name": 0,
+          "bits": [ 62 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.84-266.88"
+          }
+        },
+        "ADB1": {
+          "hide_name": 0,
+          "bits": [ 61 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.78-266.82"
+          }
+        },
+        "ADB10": {
+          "hide_name": 0,
+          "bits": [ 52 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.23-266.28"
+          }
+        },
+        "ADB11": {
+          "hide_name": 0,
+          "bits": [ 51 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.16-266.21"
+          }
+        },
+        "ADB12": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.9-266.14"
+          }
+        },
+        "ADB2": {
+          "hide_name": 0,
+          "bits": [ 60 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.72-266.76"
+          }
+        },
+        "ADB3": {
+          "hide_name": 0,
+          "bits": [ 59 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.66-266.70"
+          }
+        },
+        "ADB4": {
+          "hide_name": 0,
+          "bits": [ 58 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.60-266.64"
+          }
+        },
+        "ADB5": {
+          "hide_name": 0,
+          "bits": [ 57 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.54-266.58"
+          }
+        },
+        "ADB6": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.48-266.52"
+          }
+        },
+        "ADB7": {
+          "hide_name": 0,
+          "bits": [ 55 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.42-266.46"
+          }
+        },
+        "ADB8": {
+          "hide_name": 0,
+          "bits": [ 54 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.36-266.40"
+          }
+        },
+        "ADB9": {
+          "hide_name": 0,
+          "bits": [ 53 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:266.30-266.34"
+          }
+        },
+        "CEA": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:261.9-261.12"
+          }
+        },
+        "CEB": {
+          "hide_name": 0,
+          "bits": [ 63 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:267.9-267.12"
+          }
+        },
+        "CLKA": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:261.20-261.24"
+          }
+        },
+        "CLKB": {
+          "hide_name": 0,
+          "bits": [ 65 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:267.20-267.24"
+          }
+        },
+        "CSA0": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:262.21-262.25"
+          }
+        },
+        "CSA1": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:262.15-262.19"
+          }
+        },
+        "CSA2": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:262.9-262.13"
+          }
+        },
+        "CSB0": {
+          "hide_name": 0,
+          "bits": [ 70 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:268.21-268.25"
+          }
+        },
+        "CSB1": {
+          "hide_name": 0,
+          "bits": [ 69 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:268.15-268.19"
+          }
+        },
+        "CSB2": {
+          "hide_name": 0,
+          "bits": [ 68 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:268.9-268.13"
+          }
+        },
+        "DIA0": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:259.57-259.61"
+          }
+        },
+        "DIA1": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:259.51-259.55"
+          }
+        },
+        "DIA2": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:259.45-259.49"
+          }
+        },
+        "DIA3": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:259.39-259.43"
+          }
+        },
+        "DIA4": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:259.33-259.37"
+          }
+        },
+        "DIA5": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:259.27-259.31"
+          }
+        },
+        "DIA6": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:259.21-259.25"
+          }
+        },
+        "DIA7": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:259.15-259.19"
+          }
+        },
+        "DIA8": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:259.9-259.13"
+          }
+        },
+        "DIB0": {
+          "hide_name": 0,
+          "bits": [ 49 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:265.57-265.61"
+          }
+        },
+        "DIB1": {
+          "hide_name": 0,
+          "bits": [ 48 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:265.51-265.55"
+          }
+        },
+        "DIB2": {
+          "hide_name": 0,
+          "bits": [ 47 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:265.45-265.49"
+          }
+        },
+        "DIB3": {
+          "hide_name": 0,
+          "bits": [ 46 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:265.39-265.43"
+          }
+        },
+        "DIB4": {
+          "hide_name": 0,
+          "bits": [ 45 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:265.33-265.37"
+          }
+        },
+        "DIB5": {
+          "hide_name": 0,
+          "bits": [ 44 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:265.27-265.31"
+          }
+        },
+        "DIB6": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:265.21-265.25"
+          }
+        },
+        "DIB7": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:265.15-265.19"
+          }
+        },
+        "DIB8": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:265.9-265.13"
+          }
+        },
+        "DOA0": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:263.58-263.62"
+          }
+        },
+        "DOA1": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:263.52-263.56"
+          }
+        },
+        "DOA2": {
+          "hide_name": 0,
+          "bits": [ 38 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:263.46-263.50"
+          }
+        },
+        "DOA3": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:263.40-263.44"
+          }
+        },
+        "DOA4": {
+          "hide_name": 0,
+          "bits": [ 36 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:263.34-263.38"
+          }
+        },
+        "DOA5": {
+          "hide_name": 0,
+          "bits": [ 35 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:263.28-263.32"
+          }
+        },
+        "DOA6": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:263.22-263.26"
+          }
+        },
+        "DOA7": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:263.16-263.20"
+          }
+        },
+        "DOA8": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:263.10-263.14"
+          }
+        },
+        "DOB0": {
+          "hide_name": 0,
+          "bits": [ 79 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:269.58-269.62"
+          }
+        },
+        "DOB1": {
+          "hide_name": 0,
+          "bits": [ 78 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:269.52-269.56"
+          }
+        },
+        "DOB2": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:269.46-269.50"
+          }
+        },
+        "DOB3": {
+          "hide_name": 0,
+          "bits": [ 76 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:269.40-269.44"
+          }
+        },
+        "DOB4": {
+          "hide_name": 0,
+          "bits": [ 75 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:269.34-269.38"
+          }
+        },
+        "DOB5": {
+          "hide_name": 0,
+          "bits": [ 74 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:269.28-269.32"
+          }
+        },
+        "DOB6": {
+          "hide_name": 0,
+          "bits": [ 73 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:269.22-269.26"
+          }
+        },
+        "DOB7": {
+          "hide_name": 0,
+          "bits": [ 72 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:269.16-269.20"
+          }
+        },
+        "DOB8": {
+          "hide_name": 0,
+          "bits": [ 71 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:269.10-269.14"
+          }
+        },
+        "OCEA": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:261.14-261.18"
+          }
+        },
+        "OCEB": {
+          "hide_name": 0,
+          "bits": [ 64 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:267.14-267.18"
+          }
+        },
+        "RSTA": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:261.31-261.35"
+          }
+        },
+        "RSTB": {
+          "hide_name": 0,
+          "bits": [ 67 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:267.31-267.35"
+          }
+        },
+        "WEA": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:261.26-261.29"
+          }
+        },
+        "WEB": {
+          "hide_name": 0,
+          "bits": [ 66 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:267.26-267.29"
+          }
+        }
+      }
+    },
+    "DPR16X4C": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "abc9_box": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:203.1-255.10"
+      },
+      "parameter_default_values": {
+        "INITVAL": "0x0000000000000000 "
+      },
+      "ports": {
+        "DI": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "WCK": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "WRE": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "RAD": {
+          "direction": "input",
+          "bits": [ 8, 9, 10, 11 ]
+        },
+        "WAD": {
+          "direction": "input",
+          "bits": [ 12, 13, 14, 15 ]
+        },
+        "DO": {
+          "direction": "output",
+          "bits": [ 16, 17, 18, 19 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "DI": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:204.15-204.17"
+          }
+        },
+        "DO": {
+          "hide_name": 0,
+          "bits": [ 16, 17, 18, 19 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:208.16-208.18"
+          }
+        },
+        "RAD": {
+          "hide_name": 0,
+          "bits": [ 8, 9, 10, 11 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:206.15-206.18"
+          }
+        },
+        "WAD": {
+          "hide_name": 0,
+          "bits": [ 12, 13, 14, 15 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:207.15-207.18"
+          }
+        },
+        "WCK": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:205.9-205.12"
+          }
+        },
+        "WRE": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:205.14-205.17"
+          }
+        }
+      }
+    },
+    "FACADE_FF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:14.1-66.10"
+      },
+      "parameter_default_values": {
+        "CEMUX": "1 ",
+        "CLKMUX": "0 ",
+        "GSR": "ENABLED",
+        "LSRMUX": "LSR",
+        "LSRONMUX": "LSRMUX",
+        "REGMODE": "FF",
+        "REGSET": "SET",
+        "SRMODE": "LSR_OVER_CE"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "DI": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "LSR": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "CE": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CE": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:24.22-24.24"
+          }
+        },
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:24.8-24.11"
+          }
+        },
+        "DI": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:24.13-24.15"
+          }
+        },
+        "LSR": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:24.17-24.20"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:25.13-25.14"
+          }
+        }
+      }
+    },
+    "FACADE_IO": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:154.1-173.10"
+      },
+      "parameter_default_values": {
+        "DIR": "INPUT"
+      },
+      "ports": {
+        "PAD": {
+          "direction": "inout",
+          "bits": [ 2 ]
+        },
+        "I": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "T": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:158.8-158.9"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:159.9-159.10"
+          }
+        },
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:157.8-157.11"
+          }
+        },
+        "T": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:158.11-158.12"
+          }
+        }
+      }
+    },
+    "FACADE_SLICE": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:80.1-152.10"
+      },
+      "parameter_default_values": {
+        "CCU2_INJECT1_0": "YES",
+        "CCU2_INJECT1_1": "YES",
+        "CEMUX": "1 ",
+        "CLKMUX": "0 ",
+        "GSR": "ENABLED",
+        "LSRMUX": "LSR",
+        "LSRONMUX": "LSRMUX",
+        "LUT0_INITVAL": "1111111111111111",
+        "LUT1_INITVAL": "1111111111111111",
+        "MODE": "LOGIC",
+        "REG0_REGSET": "SET",
+        "REG0_SD": "1 ",
+        "REG1_REGSET": "SET",
+        "REG1_SD": "1 ",
+        "REGMODE": "FF",
+        "SRMODE": "LSR_OVER_CE",
+        "WREMUX": "INV"
+      },
+      "ports": {
+        "A0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C0": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D0": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "A1": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "B1": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "C1": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "D1": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "M0": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "M1": {
+          "direction": "input",
+          "bits": [ 11 ]
+        },
+        "FCI": {
+          "direction": "input",
+          "bits": [ 12 ]
+        },
+        "FXA": {
+          "direction": "input",
+          "bits": [ 13 ]
+        },
+        "FXB": {
+          "direction": "input",
+          "bits": [ 14 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 15 ]
+        },
+        "LSR": {
+          "direction": "input",
+          "bits": [ 16 ]
+        },
+        "CE": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "DI0": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "DI1": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "WD0": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "WD1": {
+          "direction": "input",
+          "bits": [ 21 ]
+        },
+        "WAD0": {
+          "direction": "input",
+          "bits": [ 22 ]
+        },
+        "WAD1": {
+          "direction": "input",
+          "bits": [ 23 ]
+        },
+        "WAD2": {
+          "direction": "input",
+          "bits": [ 24 ]
+        },
+        "WAD3": {
+          "direction": "input",
+          "bits": [ 25 ]
+        },
+        "WRE": {
+          "direction": "input",
+          "bits": [ 26 ]
+        },
+        "WCK": {
+          "direction": "input",
+          "bits": [ 27 ]
+        },
+        "F0": {
+          "direction": "output",
+          "bits": [ 28 ]
+        },
+        "Q0": {
+          "direction": "output",
+          "bits": [ 29 ]
+        },
+        "F1": {
+          "direction": "output",
+          "bits": [ 30 ]
+        },
+        "Q1": {
+          "direction": "output",
+          "bits": [ 31 ]
+        },
+        "FCO": {
+          "direction": "output",
+          "bits": [ 32 ]
+        },
+        "OFX0": {
+          "direction": "output",
+          "bits": [ 33 ]
+        },
+        "OFX1": {
+          "direction": "output",
+          "bits": [ 34 ]
+        },
+        "WDO0": {
+          "direction": "output",
+          "bits": [ 35 ]
+        },
+        "WDO1": {
+          "direction": "output",
+          "bits": [ 36 ]
+        },
+        "WDO2": {
+          "direction": "output",
+          "bits": [ 37 ]
+        },
+        "WDO3": {
+          "direction": "output",
+          "bits": [ 38 ]
+        },
+        "WADO0": {
+          "direction": "output",
+          "bits": [ 39 ]
+        },
+        "WADO1": {
+          "direction": "output",
+          "bits": [ 40 ]
+        },
+        "WADO2": {
+          "direction": "output",
+          "bits": [ 41 ]
+        },
+        "WADO3": {
+          "direction": "output",
+          "bits": [ 42 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:99.8-99.10"
+          }
+        },
+        "A1": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:100.8-100.10"
+          }
+        },
+        "B0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:99.12-99.14"
+          }
+        },
+        "B1": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:100.12-100.14"
+          }
+        },
+        "C0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:99.16-99.18"
+          }
+        },
+        "C1": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:100.16-100.18"
+          }
+        },
+        "CE": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:104.18-104.20"
+          }
+        },
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:104.8-104.11"
+          }
+        },
+        "D0": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:99.20-99.22"
+          }
+        },
+        "D1": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:100.20-100.22"
+          }
+        },
+        "DI0": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:105.8-105.11"
+          }
+        },
+        "DI1": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:105.13-105.16"
+          }
+        },
+        "F0": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:111.9-111.11"
+          }
+        },
+        "F1": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:112.9-112.11"
+          }
+        },
+        "FCI": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:102.8-102.11"
+          }
+        },
+        "FCO": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:113.9-113.12"
+          }
+        },
+        "FXA": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:102.13-102.16"
+          }
+        },
+        "FXB": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:102.18-102.21"
+          }
+        },
+        "LSR": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:104.13-104.16"
+          }
+        },
+        "M0": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:101.8-101.10"
+          }
+        },
+        "M1": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:101.12-101.14"
+          }
+        },
+        "OFX0": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:113.14-113.18"
+          }
+        },
+        "OFX1": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:113.20-113.24"
+          }
+        },
+        "Q0": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:111.13-111.15"
+          }
+        },
+        "Q1": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:112.13-112.15"
+          }
+        },
+        "WAD0": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:108.8-108.12"
+          }
+        },
+        "WAD1": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:108.14-108.18"
+          }
+        },
+        "WAD2": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:108.20-108.24"
+          }
+        },
+        "WAD3": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:108.26-108.30"
+          }
+        },
+        "WADO0": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:116.9-116.14"
+          }
+        },
+        "WADO1": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:116.16-116.21"
+          }
+        },
+        "WADO2": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:116.23-116.28"
+          }
+        },
+        "WADO3": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:116.30-116.35"
+          }
+        },
+        "WCK": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:109.13-109.16"
+          }
+        },
+        "WD0": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:107.8-107.11"
+          }
+        },
+        "WD1": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:107.13-107.16"
+          }
+        },
+        "WDO0": {
+          "hide_name": 0,
+          "bits": [ 35 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:115.9-115.13"
+          }
+        },
+        "WDO1": {
+          "hide_name": 0,
+          "bits": [ 36 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:115.15-115.19"
+          }
+        },
+        "WDO2": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:115.21-115.25"
+          }
+        },
+        "WDO3": {
+          "hide_name": 0,
+          "bits": [ 38 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:115.27-115.31"
+          }
+        },
+        "WRE": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:109.8-109.11"
+          }
+        }
+      }
+    },
+    "L6MUX21": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:74.1-76.10"
+      },
+      "ports": {
+        "D0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "D1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "SD": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Z": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:74.23-74.25"
+          }
+        },
+        "D1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:74.27-74.29"
+          }
+        },
+        "SD": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:74.31-74.33"
+          }
+        },
+        "Z": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:74.42-74.43"
+          }
+        }
+      }
+    },
+    "LUT4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:1.1-12.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000000000000000"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "Z": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:4.8-4.9"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:4.11-4.12"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:4.14-4.15"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:4.17-4.18"
+          }
+        },
+        "Z": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:5.9-5.10"
+          }
+        }
+      }
+    },
+    "OSCH": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:176.1-183.10"
+      },
+      "parameter_default_values": {
+        "NOM_FREQ": "2.08"
+      },
+      "ports": {
+        "STDBY": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "OSC": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "SEDSTDBY": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "OSC": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:180.9-180.12"
+          }
+        },
+        "SEDSTDBY": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:181.9-181.17"
+          }
+        },
+        "STDBY": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:179.8-179.13"
+          }
+        }
+      }
+    },
+    "PFUMX": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/machxo2/cells_sim.v:69.1-71.10"
+      },
+      "ports": {
+        "ALUT": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "BLUT": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "C0": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Z": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "ALUT": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:69.21-69.25"
+          }
+        },
+        "BLUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:69.27-69.31"
+          }
+        },
+        "C0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:69.33-69.35"
+          }
+        },
+        "Z": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/machxo2/cells_sim.v:69.44-69.45"
+          }
+        }
+      }
+    },
+    "inverter": {
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "inverter.v:1.1-8.10"
+      },
+      "ports": {
+        "in": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "out": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+        "$abc$216$auto$blifparse.cc:515:parse_blif$217": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0101010101010101"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/yosys/share/machxo2/cells_map.v:24.28-24.93"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ "0" ],
+            "C": [ "0" ],
+            "D": [ "0" ],
+            "Z": [ 5 ]
+          }
+        },
+        "$iopadmap$inverter.in": {
+          "hide_name": 1,
+          "type": "FACADE_IO",
+          "parameters": {
+            "DIR": "INPUT"
+          },
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "inverter.v:2.14-2.16|/yosys/share/machxo2/cells_map.v:32.74-32.108"
+          },
+          "port_directions": {
+            "O": "output",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [ 4 ],
+            "PAD": [ 2 ]
+          }
+        },
+        "$iopadmap$inverter.out": {
+          "hide_name": 1,
+          "type": "FACADE_IO",
+          "parameters": {
+            "DIR": "OUTPUT"
+          },
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "inverter.v:3.15-3.18|/yosys/share/machxo2/cells_map.v:31.76-31.120"
+          },
+          "port_directions": {
+            "I": "input",
+            "PAD": "inout",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 5 ],
+            "PAD": [ 3 ],
+            "T": [ "0" ]
+          }
+        }
+      },
+      "netnames": {
+        "$abc$216$iopadmap$in": {
+          "hide_name": 1,
+          "bits": [ 4 ],
+          "attributes": {
+          }
+        },
+        "$abc$216$iopadmap$out": {
+          "hide_name": 1,
+          "bits": [ 5 ],
+          "attributes": {
+          }
+        },
+        "in": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+          }
+        },
+        "out": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+          }
+        }
+      }
+    }
+  }
+}

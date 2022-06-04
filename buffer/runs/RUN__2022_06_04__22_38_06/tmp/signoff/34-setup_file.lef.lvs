@@ -1,0 +1,1 @@
+lvs {/openlane/designs/current/runs/RUN__2022_06_04__22_38_06/results/signoff/buffer.spice buffer} {/openlane/designs/current/runs/RUN__2022_06_04__22_38_06/tmp/signoff/31-powered_netlist.v buffer} /openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/current/runs/RUN__2022_06_04__22_38_06/logs/signoff/34-buffer.lef.log -json

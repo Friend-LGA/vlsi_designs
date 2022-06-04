@@ -1,0 +1,1 @@
+lvs {/openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/signoff/nor_gate.spice nor_gate} {/openlane/designs/current/runs/RUN__2022_06_04__22_38_28/tmp/signoff/31-powered_netlist.v nor_gate} /openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/logs/signoff/34-nor_gate.lef.log -json

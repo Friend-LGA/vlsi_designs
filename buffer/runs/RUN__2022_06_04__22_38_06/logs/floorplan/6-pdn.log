@@ -1,0 +1,69 @@
+OpenROAD c1c315118e68926dfff368f85e13bf50adaa920f 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_06/tmp/merged.unpadded.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/current/runs/RUN__2022_06_04__22_38_06/tmp/merged.unpadded.nom.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_06/results/floorplan/buffer.def
+[INFO ODB-0128] Design: buffer
+[INFO ODB-0130]     Created 2 pins.
+[INFO ODB-0131]     Created 36 components and 120 component-terminals.
+[INFO ODB-0133]     Created 2 nets and 2 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_06/results/floorplan/buffer.def
+[INFO PDN-0008] Design name is buffer.
+[INFO PDN-0009] Reading technology data.
+[INFO PDN-0011] ****** INFO ******
+Type: stdcell, stdcell_grid
+    Stdcell Rails
+      Layer: met1  -  width: 0.480  pitch: 5.440 
+    Straps
+      Layer: met4  -  width: 1.600  pitch: 7.820  offset: 3.910 
+      Layer: met5  -  width: 1.600  pitch: 7.480  offset: 3.740 
+    Connect: {met4 met5} {met1 met4}
+Type: macro, CORE_macro_grid_1
+    Macro orientation: R0 R180 MX MY R90 R270 MXR90 MYR90
+    Straps
+    Connect: {met4_PIN_ver met5}
+[INFO PDN-0012] **** END INFO ****
+[INFO PDN-0013] Inserting stdcell grid - stdcell_grid.
+[INFO PDN-0015] Writing to database.
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VPWR is not explicitly set.
+[WARNING PSM-0022] Using voltage 1.800V for VDD network.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 31.280 or core height of 29.920. Changing bump location to the center of the die at (15.640, 14.960).
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0031] Number of PDN nodes on net VPWR = 156.
+[INFO PSM-0064] Number of voltage sources = 1.
+[INFO PSM-0040] All PDN stripes on net VPWR are connected.
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VGND is not explicitly set.
+[WARNING PSM-0021] Using voltage 0.000V for ground network.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 31.280 or core height of 29.920. Changing bump location to the center of the die at (15.640, 14.960).
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0031] Number of PDN nodes on net VGND = 120.
+[INFO PSM-0064] Number of voltage sources = 1.
+[INFO PSM-0040] All PDN stripes on net VGND are connected.
+[INFO]: Setting RC values...
+[INFO PSM-0002] Output voltage file is specified as: /openlane/designs/current/runs/RUN__2022_06_04__22_38_06/tmp/floorplan/6-pdn.pga.rpt.
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VPWR is not explicitly set.
+[WARNING PSM-0022] Using voltage 1.800V for VDD network.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 31.280 or core height of 29.920. Changing bump location to the center of the die at (15.640, 14.960).
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0031] Number of PDN nodes on net VPWR = 156.
+[WARNING PSM-0071] Instance _0_ is not placed. Therefore, the power drawn by this instance is not considered for IR  drop estimation. Please run analyze_power_grid after instances are placed.
+[INFO PSM-0064] Number of voltage sources = 1.
+[INFO PSM-0040] All PDN stripes on net VPWR are connected.
+########## IR report #################
+Worstcase voltage: 1.80e+00 V
+Average IR drop  : 1.68e-11 V
+Worstcase IR drop: 3.53e-11 V
+######################################

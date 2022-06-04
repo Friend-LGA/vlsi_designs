@@ -1,0 +1,1 @@
+lvs {/openlane/designs/current/runs/RUN__2022_06_04__22_38_00/results/signoff/and_gate.spice and_gate} {/openlane/designs/current/runs/RUN__2022_06_04__22_38_00/tmp/signoff/31-powered_netlist.v and_gate} /openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/current/runs/RUN__2022_06_04__22_38_00/logs/signoff/34-and_gate.lef.log -json

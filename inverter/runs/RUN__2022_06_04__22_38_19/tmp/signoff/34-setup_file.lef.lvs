@@ -1,0 +1,1 @@
+lvs {/openlane/designs/current/runs/RUN__2022_06_04__22_38_19/results/signoff/inverter.spice inverter} {/openlane/designs/current/runs/RUN__2022_06_04__22_38_19/tmp/signoff/31-powered_netlist.v inverter} /openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/current/runs/RUN__2022_06_04__22_38_19/logs/signoff/34-inverter.lef.log -json

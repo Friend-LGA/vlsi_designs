@@ -1,0 +1,41 @@
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+Startpoint: enable (input port clocked by __VIRTUAL_CLK__)
+Endpoint: out (output port clocked by __VIRTUAL_CLK__)
+Path Group: __VIRTUAL_CLK__
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.00    2.00 v input external delay
+                  0.01    0.01    2.01 v enable (in)
+     1    0.00                           enable (net)
+                  0.01    0.00    2.01 v input1/A (sky130_fd_sc_hd__clkbuf_1)
+                  0.04    0.08    2.09 v input1/X (sky130_fd_sc_hd__clkbuf_1)
+     1    0.01                           net1 (net)
+                  0.04    0.00    2.09 v _1_/A (sky130_fd_sc_hd__inv_2)
+                  0.06    0.07    2.16 ^ _1_/Y (sky130_fd_sc_hd__inv_2)
+     1    0.01                           _0_ (net)
+                  0.06    0.00    2.16 ^ _2_/TE_B (sky130_fd_sc_hd__ebufn_8)
+                  0.00    0.05    2.21 v _2_/Z (sky130_fd_sc_hd__ebufn_8)
+     1    0.04                           out (net)
+                  0.00    0.00    2.21 v out (out)
+                                  2.21   data arrival time
+
+                  0.00    0.00    0.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.25    0.25   clock uncertainty
+                          0.00    0.25   clock reconvergence pessimism
+                         -2.00   -1.75   output external delay
+                                 -1.75   data required time
+-----------------------------------------------------------------------------
+                                 -1.75   data required time
+                                 -2.21   data arrival time
+-----------------------------------------------------------------------------
+                                  3.96   slack (MET)
+
+

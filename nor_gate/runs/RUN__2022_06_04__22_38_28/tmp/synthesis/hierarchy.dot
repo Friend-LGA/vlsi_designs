@@ -1,0 +1,16 @@
+digraph "nor_gate" {
+label="nor_gate";
+rankdir="LR";
+remincross=true;
+n3 [ shape=octagon, label="out", color="black", fontcolor="black" ];
+n4 [ shape=octagon, label="in2", color="black", fontcolor="black" ];
+n5 [ shape=octagon, label="in1", color="black", fontcolor="black" ];
+c8 [ shape=record, label="{{<p6> A}|$2\n$logic_not|{<p7> Y}}" ];
+c10 [ shape=record, label="{{<p6> A|<p9> B}|$1\n$or|{<p7> Y}}" ];
+x0 [shape=box, style=rounded, label="BUF"];
+c8:p7:e -> x0:w:w [color="black", label=""];
+c10:p7:e -> c8:p6:w [color="black", label=""];
+x0:e:e -> n3:w [color="black", label=""];
+n4:e -> c10:p9:w [color="black", label=""];
+n5:e -> c10:p6:w [color="black", label=""];
+}

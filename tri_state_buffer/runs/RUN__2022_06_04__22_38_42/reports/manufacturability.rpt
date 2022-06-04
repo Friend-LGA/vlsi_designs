@@ -1,0 +1,19 @@
+Design Name: tri_state_buffer
+Run Directory: /openlane/designs/current/runs/RUN__2022_06_04__22_38_42
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/current/runs/RUN__2022_06_04__22_38_42/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/current/runs/RUN__2022_06_04__22_38_42/logs/signoff/34-tri_state_buffer.lvs.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/current/runs/RUN__2022_06_04__22_38_42/reports/signoff/antenna.rpt
+Number of pins violated: 0
+Number of nets violated: 0

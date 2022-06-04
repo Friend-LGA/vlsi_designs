@@ -1,0 +1,64 @@
+(DELAYFILE
+ (SDFVERSION "3.0")
+ (DESIGN "nor_gate")
+ (DATE "Sat Jun  4 19:38:43 2022")
+ (VENDOR "Parallax")
+ (PROGRAM "STA")
+ (VERSION "2.3.1")
+ (DIVIDER .)
+ (VOLTAGE 1.800::1.800)
+ (PROCESS "1.000::1.000")
+ (TEMPERATURE 25.000::25.000)
+ (TIMESCALE 1ns)
+ (CELL
+  (CELLTYPE "nor_gate")
+  (INSTANCE)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT in1 input1.A (0.013:0.013:0.013) (0.005:0.005:0.005))
+    (INTERCONNECT in2 input2.A (0.011:0.011:0.011) (0.004:0.004:0.004))
+    (INTERCONNECT _0_.Y output3.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input1.X _0_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input2.X _0_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT output3.X out (0.001:0.001:0.001) (0.001:0.001:0.001))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nor2_1")
+  (INSTANCE _0_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.106:0.106:0.106) (0.050:0.050:0.050))
+    (IOPATH B Y (0.090:0.090:0.090) (0.042:0.042:0.042))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkbuf_1")
+  (INSTANCE input1)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.079:0.079:0.079) (0.075:0.075:0.075))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkbuf_1")
+  (INSTANCE input2)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.086:0.086:0.086) (0.080:0.080:0.080))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__buf_2")
+  (INSTANCE output3)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.215:0.215:0.216) (0.171:0.172:0.174))
+   )
+  )
+ )
+)

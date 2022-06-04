@@ -1,0 +1,104 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO buffer
+  CLASS BLOCK ;
+  FOREIGN buffer ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 42.680 BY 53.400 ;
+  PIN VGND
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 17.320 36.800 18.920 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 24.800 36.800 26.400 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 32.280 36.800 33.880 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 12.540 10.640 14.140 41.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 20.360 10.640 21.960 41.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 28.180 10.640 29.780 41.040 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 13.580 36.800 15.180 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 21.060 36.800 22.660 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 28.540 36.800 30.140 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 36.020 36.800 37.620 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 8.630 10.640 10.230 41.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 16.450 10.640 18.050 41.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 24.270 10.640 25.870 41.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 32.090 10.640 33.690 41.040 ;
+    END
+  END VPWR
+  PIN in
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 41.950 49.400 42.230 53.400 ;
+    END
+  END in
+  PIN out
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 0.000 0.370 4.000 ;
+    END
+  END out
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 36.800 40.885 ;
+      LAYER met1 ;
+        RECT 0.070 10.640 42.250 41.040 ;
+      LAYER met2 ;
+        RECT 0.100 49.120 41.670 49.400 ;
+        RECT 0.100 4.280 42.220 49.120 ;
+        RECT 0.650 4.000 42.220 4.280 ;
+      LAYER met3 ;
+        RECT 8.630 10.715 33.690 40.965 ;
+  END
+END buffer
+END LIBRARY
+

@@ -1,0 +1,36 @@
+digraph "multiplexer" {
+label="multiplexer";
+rankdir="LR";
+remincross=true;
+n3 [ shape=octagon, label="out", color="black", fontcolor="black" ];
+n4 [ shape=octagon, label="sel", color="black", fontcolor="black" ];
+n5 [ shape=octagon, label="in", color="black", fontcolor="black" ];
+x1 [ shape=record, style=rounded, label="<s0> 0:0 - 0:0 " ];
+x2 [ shape=record, style=rounded, label="<s0> 1:1 - 0:0 " ];
+x3 [ shape=record, style=rounded, label="<s0> 2:2 - 0:0 " ];
+x4 [ shape=record, style=rounded, label="<s0> 3:3 - 0:0 " ];
+x5 [ shape=record, style=rounded, label="<s0> 4:4 - 0:0 " ];
+x6 [ shape=record, style=rounded, label="<s0> 5:5 - 0:0 " ];
+x7 [ shape=record, style=rounded, label="<s0> 6:6 - 0:0 " ];
+x8 [ shape=record, style=rounded, label="<s0> 7:7 - 0:0 " ];
+p0 [shape=box, style=rounded, label="PROC $1\n/openlane/designs/current/src/multiplexer.sv:0.0-0.0"];
+p0:e -> n3:w [color="black", label=""];
+n3:e -> p0:w [color="black", label=""];
+n4:e -> p0:w [color="black", style="setlinewidth(3)", label=""];
+n5:e -> x1:s0:w [color="black", label=""];
+n5:e -> x2:s0:w [color="black", label=""];
+n5:e -> x3:s0:w [color="black", label=""];
+n5:e -> x4:s0:w [color="black", label=""];
+n5:e -> x5:s0:w [color="black", label=""];
+n5:e -> x6:s0:w [color="black", label=""];
+n5:e -> x7:s0:w [color="black", label=""];
+n5:e -> x8:s0:w [color="black", label=""];
+x1:e -> p0:w [color="black", label=""];
+x2:e -> p0:w [color="black", label=""];
+x3:e -> p0:w [color="black", label=""];
+x4:e -> p0:w [color="black", label=""];
+x5:e -> p0:w [color="black", label=""];
+x6:e -> p0:w [color="black", label=""];
+x7:e -> p0:w [color="black", label=""];
+x8:e -> p0:w [color="black", label=""];
+}

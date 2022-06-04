@@ -1,0 +1,20 @@
+Sat Jun 04 19:38:16 UTC 2022 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/tmp/merged.unpadded.nom.lef -i /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef |& tee /dev/null"
+
+Sat Jun 04 19:38:16 UTC 2022 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/tmp/merged.unpadded.min.lef -i /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef |& tee /dev/null"
+
+Sat Jun 04 19:38:16 UTC 2022 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/tmp/merged.unpadded.max.lef -i /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef |& tee /dev/null"
+
+Sat Jun 04 19:38:16 UTC 2022 - Executing "openroad -python /openlane/scripts/mergeLib.py --output /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/tmp/synthesis/merged.lib --name sky130A_merged /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Sat Jun 04 19:38:16 UTC 2022 - Executing "openroad -python /openlane/scripts/libtrim.py --cell-file /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/tmp/synthesis/trimmed.lib.exclude.list --output /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/tmp/synthesis/trimmed.lib /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/tmp/synthesis/merged.lib"
+
+Sat Jun 04 19:38:17 UTC 2022 - Executing "echo {openlane 30f87f541d4e338b6793e46032350f26f64d8791} > /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/OPENLANE_VERSION"
+
+Sat Jun 04 19:38:17 UTC 2022 - Executing "openroad -python /openlane/scripts/new_tracks.py -i /openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/tmp/routing/config.tracks"
+
+Sat Jun 04 19:38:17 UTC 2022 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/tmp/synthesis/1-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+
+Sat Jun 04 19:38:17 UTC 2022 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl -l /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/logs/synthesis/1-synthesis.log |& tee /dev/null"
+
+Sat Jun 04 19:38:17 UTC 2022 - Executing "openroad -python /openlane/scripts/generate_reports.py -d /openlane/designs/current --design_name buffer --tag RUN__2022_06_04__22_38_15 --output_file /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/reports/metrics.csv --man_report /openlane/designs/current/runs/RUN__2022_06_04__22_38_15/reports/manufacturability.rpt --run_path /openlane/designs/current/runs/RUN__2022_06_04__22_38_15"
+

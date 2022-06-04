@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>XOR /openlane/designs/current/runs/RUN__2022_06_04__22_38_23/results/signoff/multiplexer.gds vs. /openlane/designs/current/runs/RUN__2022_06_04__22_38_23/results/signoff/multiplexer.klayout.gds</description>
+ <original-file/>
+ <generator>drc: script='/openlane/scripts/klayout/xor.drc'</generator>
+ <top-cell>multiplexer</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>122/16</name>
+   <description>XOR results for layer 122/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>235/4</name>
+   <description>XOR results for layer 235/4 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>236/0</name>
+   <description>XOR results for layer 236/0 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/16</name>
+   <description>XOR results for layer 64/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/20</name>
+   <description>XOR results for layer 64/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/5</name>
+   <description>XOR results for layer 64/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/59</name>
+   <description>XOR results for layer 64/59 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>65/20</name>
+   <description>XOR results for layer 65/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>65/44</name>
+   <description>XOR results for layer 65/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>66/20</name>
+   <description>XOR results for layer 66/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>66/44</name>
+   <description>XOR results for layer 66/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/16</name>
+   <description>XOR results for layer 67/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/20</name>
+   <description>XOR results for layer 67/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/44</name>
+   <description>XOR results for layer 67/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/5</name>
+   <description>XOR results for layer 67/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/16</name>
+   <description>XOR results for layer 68/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/20</name>
+   <description>XOR results for layer 68/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/44</name>
+   <description>XOR results for layer 68/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/5</name>
+   <description>XOR results for layer 68/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>69/16</name>
+   <description>XOR results for layer 69/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>69/20</name>
+   <description>XOR results for layer 69/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>69/44</name>
+   <description>XOR results for layer 69/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>69/5</name>
+   <description>XOR results for layer 69/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/16</name>
+   <description>XOR results for layer 70/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/20</name>
+   <description>XOR results for layer 70/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/44</name>
+   <description>XOR results for layer 70/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/5</name>
+   <description>XOR results for layer 70/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/16</name>
+   <description>XOR results for layer 71/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/20</name>
+   <description>XOR results for layer 71/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/44</name>
+   <description>XOR results for layer 71/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/5</name>
+   <description>XOR results for layer 71/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>72/16</name>
+   <description>XOR results for layer 72/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>72/20</name>
+   <description>XOR results for layer 72/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>72/5</name>
+   <description>XOR results for layer 72/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>78/44</name>
+   <description>XOR results for layer 78/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>81/4</name>
+   <description>XOR results for layer 81/4 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>83/44</name>
+   <description>XOR results for layer 83/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>93/44</name>
+   <description>XOR results for layer 93/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>94/20</name>
+   <description>XOR results for layer 94/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>95/20</name>
+   <description>XOR results for layer 95/20 </description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>multiplexer</name>
+   <variant/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0.09,0;0.09,4;0.16,4;0.16,3.74;0.3,3.74;0.3,4;0.37,4;0.37,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (38.73,0;38.73,4;38.8,4;38.8,3.74;38.94,3.74;38.94,4;39.01,4;39.01,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (80.59,0;80.59,4;80.66,4;80.66,3.74;80.8,3.74;80.8,4;80.87,4;80.87,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (38.73,127.355;38.73,131.355;39.01,131.355;39.01,127.355;38.94,127.355;38.94,127.5;38.8,127.5;38.8,127.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (80.59,127.355;80.59,131.355;80.87,131.355;80.87,127.355;80.8,127.355;80.8,127.5;80.66,127.5;80.66,127.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (119.23,127.355;119.23,131.355;119.51,131.355;119.51,127.355;119.44,127.355;119.44,127.5;119.3,127.5;119.3,127.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('in[1]',r0 119.37,129.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('in[3]',r0 0.23,2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('in[4]',r0 80.73,2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('in[6]',r0 80.73,129.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('out',r0 38.87,2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('sel[1]',r0 38.87,129.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (116.635,0.04;116.635,0.19;117.3,0.19;117.3,0.49;116.635,0.49;116.635,0.64;120.635,0.64;120.635,0.04)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,40.84;0,41.44;4,41.44;4,41.29;3.22,41.29;3.22,40.99;4,40.99;4,40.84)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (116.635,44.24;116.635,44.39;117.3,44.39;117.3,44.69;116.635,44.69;116.635,44.84;120.635,44.84;120.635,44.24)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,85.04;0,85.64;4,85.64;4,85.49;3.22,85.49;3.22,85.19;4,85.19;4,85.04)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (116.635,88.44;116.635,88.59;117.3,88.59;117.3,88.89;116.635,88.89;116.635,89.04;120.635,89.04;120.635,88.44)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,129.24;0,129.84;4,129.84;4,129.69;3.22,129.69;3.22,129.39;4,129.39;4,129.24)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('in[0]',r0 2,41.14)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('in[2]',r0 2,85.34)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('in[5]',r0 118.635,0.34)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('in[7]',r0 118.635,88.74)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('sel[0]',r0 2,129.54)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('sel[2]',r0 118.635,44.54)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('VGND',r0 32.89,65.28)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('VPWR',r0 19.205,65.28)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('VGND',r0 60.26,37.84)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/5'</category>
+   <cell>multiplexer</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('VPWR',r0 60.26,24.24)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

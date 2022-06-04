@@ -1,0 +1,19 @@
+Design Name: and_gate
+Run Directory: /openlane/designs/current/runs/RUN__2022_06_04__22_38_00
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/current/runs/RUN__2022_06_04__22_38_00/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/current/runs/RUN__2022_06_04__22_38_00/logs/signoff/34-and_gate.lvs.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/current/runs/RUN__2022_06_04__22_38_00/reports/signoff/antenna.rpt
+Number of pins violated: 0
+Number of nets violated: 0

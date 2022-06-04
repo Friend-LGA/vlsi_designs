@@ -1,0 +1,198 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO demultiplexer
+  CLASS BLOCK ;
+  FOREIGN demultiplexer ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 176.950 BY 187.670 ;
+  PIN VGND
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 50.640 171.120 52.240 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 91.440 171.120 93.040 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 132.240 171.120 133.840 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 46.120 10.640 47.720 174.320 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 87.520 10.640 89.120 174.320 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 128.920 10.640 130.520 174.320 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 30.240 171.120 31.840 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 71.040 171.120 72.640 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 111.840 171.120 113.440 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 152.640 171.120 154.240 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 25.420 10.640 27.020 174.320 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 66.820 10.640 68.420 174.320 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 108.220 10.640 109.820 174.320 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 149.620 10.640 151.220 174.320 ;
+    END
+  END VPWR
+  PIN in
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 61.240 4.000 61.840 ;
+    END
+  END in
+  PIN out[0]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 173.970 183.670 174.250 187.670 ;
+    END
+  END out[0]
+  PIN out[1]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 122.440 4.000 123.040 ;
+    END
+  END out[1]
+  PIN out[2]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 0.000 0.370 4.000 ;
+    END
+  END out[2]
+  PIN out[3]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 119.230 0.000 119.510 4.000 ;
+    END
+  END out[3]
+  PIN out[4]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 172.950 0.040 176.950 0.640 ;
+    END
+  END out[4]
+  PIN out[5]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 116.010 183.670 116.290 187.670 ;
+    END
+  END out[5]
+  PIN out[6]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 172.950 125.840 176.950 126.440 ;
+    END
+  END out[6]
+  PIN out[7]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 58.050 0.000 58.330 4.000 ;
+    END
+  END out[7]
+  PIN sel[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 187.040 4.000 187.640 ;
+    END
+  END sel[0]
+  PIN sel[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 54.830 183.670 55.110 187.670 ;
+    END
+  END sel[1]
+  PIN sel[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 172.950 64.640 176.950 65.240 ;
+    END
+  END sel[2]
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 171.120 174.165 ;
+      LAYER met1 ;
+        RECT 0.070 10.640 174.270 174.320 ;
+      LAYER met2 ;
+        RECT 0.100 183.390 54.550 187.525 ;
+        RECT 55.390 183.390 115.730 187.525 ;
+        RECT 116.570 183.390 173.690 187.525 ;
+        RECT 0.100 4.280 174.240 183.390 ;
+        RECT 0.650 0.155 57.770 4.280 ;
+        RECT 58.610 0.155 118.950 4.280 ;
+        RECT 119.790 0.155 174.240 4.280 ;
+      LAYER met3 ;
+        RECT 4.400 186.640 172.950 187.505 ;
+        RECT 4.000 126.840 172.950 186.640 ;
+        RECT 4.000 125.440 172.550 126.840 ;
+        RECT 4.000 123.440 172.950 125.440 ;
+        RECT 4.400 122.040 172.950 123.440 ;
+        RECT 4.000 65.640 172.950 122.040 ;
+        RECT 4.000 64.240 172.550 65.640 ;
+        RECT 4.000 62.240 172.950 64.240 ;
+        RECT 4.400 60.840 172.950 62.240 ;
+        RECT 4.000 1.040 172.950 60.840 ;
+        RECT 4.000 0.175 172.550 1.040 ;
+  END
+END demultiplexer
+END LIBRARY
+

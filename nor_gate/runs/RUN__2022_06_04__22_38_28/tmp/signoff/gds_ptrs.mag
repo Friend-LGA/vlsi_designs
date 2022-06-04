@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 9282 11426
+string GDS_END 98286
+string GDS_FILE /openlane/designs/current/runs/RUN__2022_06_04__22_38_28/results/signoff/nor_gate.magic.gds
+string GDS_START 29206
+<< end >>

@@ -1,0 +1,35 @@
+OpenROAD c1c315118e68926dfff368f85e13bf50adaa920f 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_11/tmp/merged.max.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/current/runs/RUN__2022_06_04__22_38_11/tmp/merged.max.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_11/results/routing/demultiplexer.def
+[INFO ODB-0128] Design: demultiplexer
+[INFO ODB-0130]     Created 14 pins.
+[INFO ODB-0131]     Created 2766 components and 10406 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 10320 connections.
+[INFO ODB-0133]     Created 35 nets and 86 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/current/runs/RUN__2022_06_04__22_38_11/results/routing/demultiplexer.def
+[WARNING STA-0357] virtual clock __VIRTUAL_CLK__ can not be propagated.
+Using RCX ruleset '/openlane/pdks/sky130A/libs.tech/openlane/rules.openrcx.sky130A.max.spef_extractor'...
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0008] extracting parasitics of demultiplexer ...
+Notice 0: Split top of 8 T shapes.
+[INFO RCX-0435] Reading extraction model file /openlane/pdks/sky130A/libs.tech/openlane/rules.openrcx.sky130A.max.spef_extractor ...
+[INFO RCX-0436] RC segment generation demultiplexer (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 149 rc segments
+[INFO RCX-0439] Coupling Cap extraction demultiplexer ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0043] 223 wires to be extracted
+[INFO RCX-0442] 66% completion -- 148 wires have been extracted
+[INFO RCX-0442] 100% completion -- 223 wires have been extracted
+[INFO RCX-0045] Extract 35 nets, 184 rsegs, 184 caps, 72 ccs
+[INFO RCX-0015] Finished extracting demultiplexer.
+Writing result to /openlane/designs/current/runs/RUN__2022_06_04__22_38_11/results/routing/demultiplexer.max.spef...
+[INFO RCX-0016] Writing SPEF ...
+[INFO RCX-0443] 35 nets finished
+[INFO RCX-0017] Finished writing SPEF ...

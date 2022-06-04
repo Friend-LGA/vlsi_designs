@@ -1,0 +1,1 @@
+lvs {/openlane/designs/current/runs/RUN__2022_06_04__02_21_02/results/signoff/picorv32a.spice picorv32a} {/openlane/designs/current/runs/RUN__2022_06_04__02_21_02/tmp/signoff/33-powered_netlist.v picorv32a} /openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/current/runs/RUN__2022_06_04__02_21_02/logs/signoff/36-picorv32a.lef.log -json

@@ -1,0 +1,2787 @@
+{
+  "creator": "Yosys 0.17+33 (git sha1 0b1a1a576, gcc 11.2.0-19ubuntu1 -fPIC -Os)",
+  "modules": {
+    "GP_2LUT": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:8.1-11.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000"
+      },
+      "ports": {
+        "IN0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "IN1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:8.22-8.25"
+          }
+        },
+        "IN1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:8.27-8.30"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:8.39-8.42"
+          }
+        }
+      }
+    },
+    "GP_3LUT": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:13.1-16.10"
+      },
+      "parameter_default_values": {
+        "INIT": "00000000"
+      },
+      "ports": {
+        "IN0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "IN1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "IN2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:13.22-13.25"
+          }
+        },
+        "IN1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:13.27-13.30"
+          }
+        },
+        "IN2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:13.32-13.35"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:13.44-13.47"
+          }
+        }
+      }
+    },
+    "GP_4LUT": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:18.1-27.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000000000000000"
+      },
+      "ports": {
+        "IN0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "IN1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "IN2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "IN3": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:19.13-19.16"
+          }
+        },
+        "IN1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:20.13-20.16"
+          }
+        },
+        "IN2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:21.13-21.16"
+          }
+        },
+        "IN3": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:22.13-22.16"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:23.14-23.17"
+          }
+        }
+      }
+    },
+    "GP_ABUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_ams.v:11.1-19.10"
+      },
+      "parameter_default_values": {
+        "BANDWIDTH_KHZ": "00000000000000000000000000000001"
+      },
+      "ports": {
+        "IN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:11.27-11.29"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:11.43-11.46"
+          }
+        }
+      }
+    },
+    "GP_ACMP": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_ams.v:21.1-30.10"
+      },
+      "parameter_default_values": {
+        "BANDWIDTH": "HIGH",
+        "HYSTERESIS": "00000000000000000000000000000000",
+        "VIN_ATTEN": "00000000000000000000000000000001",
+        "VIN_ISRC_EN": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "PWREN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "VIN": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "VREF": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:21.78-21.81"
+          }
+        },
+        "PWREN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:21.27-21.32"
+          }
+        },
+        "VIN": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:21.45-21.48"
+          }
+        },
+        "VREF": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:21.61-21.65"
+          }
+        }
+      }
+    },
+    "GP_BANDGAP": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_ams.v:32.1-37.10"
+      },
+      "parameter_default_values": {
+        "AUTO_PWRDN": "00000000000000000000000000000001",
+        "CHOPPER_EN": "00000000000000000000000000000001",
+        "OUT_DELAY": "00000000000000000000000001100100"
+      },
+      "ports": {
+        "OK": {
+          "direction": "output",
+          "bits": [ 2 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "OK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:32.30-32.32"
+          }
+        }
+      }
+    },
+    "GP_CLKBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:29.1-31.10"
+      },
+      "ports": {
+        "IN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:29.29-29.31"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:29.45-29.48"
+          }
+        }
+      }
+    },
+    "GP_COUNT14": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:33.1-113.10"
+      },
+      "parameter_default_values": {
+        "CLKIN_DIVIDE": "00000000000000000000000000000001",
+        "COUNT_TO": "00000000000001",
+        "RESET_MODE": "RISING"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "RST": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:33.25-33.28"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:33.57-33.60"
+          }
+        },
+        "RST": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:33.41-33.44"
+          }
+        }
+      }
+    },
+    "GP_COUNT14_ADV": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:115.1-252.10"
+      },
+      "parameter_default_values": {
+        "CLKIN_DIVIDE": "00000000000000000000000000000001",
+        "COUNT_TO": "00000000000001",
+        "RESET_MODE": "RISING",
+        "RESET_VALUE": "ZERO"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "RST": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "UP": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "KEEP": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "POUT": {
+          "direction": "output",
+          "bits": [ 7, 8, 9, 10, 11, 12, 13, 14 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:115.29-115.32"
+          }
+        },
+        "KEEP": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:116.38-116.42"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:115.56-115.59"
+          }
+        },
+        "POUT": {
+          "hide_name": 0,
+          "bits": [ 7, 8, 9, 10, 11, 12, 13, 14 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:116.60-116.64"
+          }
+        },
+        "RST": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:115.40-115.43"
+          }
+        },
+        "UP": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:116.28-116.30"
+          }
+        }
+      }
+    },
+    "GP_COUNT8": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:394.1-479.10"
+      },
+      "parameter_default_values": {
+        "CLKIN_DIVIDE": "00000000000000000000000000000001",
+        "COUNT_TO": "00000001",
+        "RESET_MODE": "RISING"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "RST": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "POUT": {
+          "direction": "output",
+          "bits": [ 5, 6, 7, 8, 9, 10, 11, 12 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:395.13-395.16"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:397.13-397.16"
+          }
+        },
+        "POUT": {
+          "hide_name": 0,
+          "bits": [ 5, 6, 7, 8, 9, 10, 11, 12 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:398.18-398.22"
+          }
+        },
+        "RST": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:396.13-396.16"
+          }
+        }
+      }
+    },
+    "GP_COUNT8_ADV": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:254.1-392.10"
+      },
+      "parameter_default_values": {
+        "CLKIN_DIVIDE": "00000000000000000000000000000001",
+        "COUNT_TO": "00000001",
+        "RESET_MODE": "RISING",
+        "RESET_VALUE": "ZERO"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "RST": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "UP": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "KEEP": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "POUT": {
+          "direction": "output",
+          "bits": [ 7, 8, 9, 10, 11, 12, 13, 14 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:254.28-254.31"
+          }
+        },
+        "KEEP": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:255.38-255.42"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:254.55-254.58"
+          }
+        },
+        "POUT": {
+          "hide_name": 0,
+          "bits": [ 7, 8, 9, 10, 11, 12, 13, 14 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:255.60-255.64"
+          }
+        },
+        "RST": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:254.39-254.42"
+          }
+        },
+        "UP": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:255.28-255.30"
+          }
+        }
+      }
+    },
+    "GP_DAC": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_ams.v:39.1-45.10"
+      },
+      "ports": {
+        "DIN": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ]
+        },
+        "VREF": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "VOUT": {
+          "direction": "output",
+          "bits": [ 11 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "DIN": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:39.26-39.29"
+          }
+        },
+        "VOUT": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:39.59-39.63"
+          }
+        },
+        "VREF": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:39.42-39.46"
+          }
+        }
+      }
+    },
+    "GP_DCMP": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_wip.v:4.1-24.10"
+      },
+      "parameter_default_values": {
+        "CLK_EDGE": "RISING",
+        "GREATER_OR_EQUAL": "0",
+        "PWRDN_SYNC": "0"
+      },
+      "ports": {
+        "INP": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ]
+        },
+        "INN": {
+          "direction": "input",
+          "bits": [ 10, 11, 12, 13, 14, 15, 16, 17 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "PWRDN": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "GREATER": {
+          "direction": "output",
+          "bits": [ 20 ]
+        },
+        "EQUAL": {
+          "direction": "output",
+          "bits": [ 21 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:4.54-4.57"
+          }
+        },
+        "EQUAL": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:4.103-4.108"
+          }
+        },
+        "GREATER": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:4.83-4.90"
+          }
+        },
+        "INN": {
+          "hide_name": 0,
+          "bits": [ 10, 11, 12, 13, 14, 15, 16, 17 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:4.43-4.46"
+          }
+        },
+        "INP": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:4.27-4.30"
+          }
+        },
+        "PWRDN": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:4.65-4.70"
+          }
+        }
+      }
+    },
+    "GP_DCMPMUX": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:486.1-512.10"
+      },
+      "ports": {
+        "SEL": {
+          "direction": "input",
+          "bits": [ 2, 3 ]
+        },
+        "IN0": {
+          "direction": "input",
+          "bits": [ 4, 5, 6, 7, 8, 9, 10, 11 ]
+        },
+        "IN1": {
+          "direction": "input",
+          "bits": [ 12, 13, 14, 15, 16, 17, 18, 19 ]
+        },
+        "IN2": {
+          "direction": "input",
+          "bits": [ 20, 21, 22, 23, 24, 25, 26, 27 ]
+        },
+        "IN3": {
+          "direction": "input",
+          "bits": [ 28, 29, 30, 31, 32, 33, 34, 35 ]
+        },
+        "OUTA": {
+          "direction": "output",
+          "bits": [ 36, 37, 38, 39, 40, 41, 42, 43 ]
+        },
+        "OUTB": {
+          "direction": "output",
+          "bits": [ 44, 45, 46, 47, 48, 49, 50, 51 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN0": {
+          "hide_name": 0,
+          "bits": [ 4, 5, 6, 7, 8, 9, 10, 11 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:486.46-486.49"
+          }
+        },
+        "IN1": {
+          "hide_name": 0,
+          "bits": [ 12, 13, 14, 15, 16, 17, 18, 19 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:486.62-486.65"
+          }
+        },
+        "IN2": {
+          "hide_name": 0,
+          "bits": [ 20, 21, 22, 23, 24, 25, 26, 27 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:486.78-486.81"
+          }
+        },
+        "IN3": {
+          "hide_name": 0,
+          "bits": [ 28, 29, 30, 31, 32, 33, 34, 35 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:486.94-486.97"
+          }
+        },
+        "OUTA": {
+          "hide_name": 0,
+          "bits": [ 36, 37, 38, 39, 40, 41, 42, 43 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:486.115-486.119"
+          }
+        },
+        "OUTB": {
+          "hide_name": 0,
+          "bits": [ 44, 45, 46, 47, 48, 49, 50, 51 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:486.137-486.141"
+          }
+        },
+        "SEL": {
+          "hide_name": 0,
+          "bits": [ 2, 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:486.30-486.33"
+          }
+        }
+      }
+    },
+    "GP_DCMPREF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:481.1-484.10"
+      },
+      "parameter_default_values": {
+        "REF_VAL": "00000000"
+      },
+      "ports": {
+        "OUT": {
+          "direction": "output",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:481.34-481.37"
+          }
+        }
+      }
+    },
+    "GP_DELAY": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:514.1-547.10"
+      },
+      "parameter_default_values": {
+        "DELAY_STEPS": "00000000000000000000000000000001",
+        "GLITCH_FILTER": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "IN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:514.23-514.25"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:514.38-514.41"
+          }
+        }
+      }
+    },
+    "GP_DFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:549.1-555.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:549.24-549.27"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:549.21-549.22"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:549.40-549.41"
+          }
+        }
+      }
+    },
+    "GP_DFFI": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:557.1-563.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nQ": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:557.25-557.28"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:557.22-557.23"
+          }
+        },
+        "nQ": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:557.41-557.43"
+          }
+        }
+      }
+    },
+    "GP_DFFR": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:565.1-574.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nRST": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:565.25-565.28"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:565.22-565.23"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:565.47-565.48"
+          }
+        },
+        "nRST": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:565.30-565.34"
+          }
+        }
+      }
+    },
+    "GP_DFFRI": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:576.1-585.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nRST": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "nQ": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:576.26-576.29"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:576.23-576.24"
+          }
+        },
+        "nQ": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:576.48-576.50"
+          }
+        },
+        "nRST": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:576.31-576.35"
+          }
+        }
+      }
+    },
+    "GP_DFFS": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:587.1-596.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nSET": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:587.25-587.28"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:587.22-587.23"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:587.47-587.48"
+          }
+        },
+        "nSET": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:587.30-587.34"
+          }
+        }
+      }
+    },
+    "GP_DFFSI": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:598.1-607.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nSET": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "nQ": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:598.26-598.29"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:598.23-598.24"
+          }
+        },
+        "nQ": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:598.48-598.50"
+          }
+        },
+        "nSET": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:598.31-598.35"
+          }
+        }
+      }
+    },
+    "GP_DFFSR": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:609.1-619.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x",
+        "SRMODE": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nSR": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:609.26-609.29"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:609.23-609.24"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:609.47-609.48"
+          }
+        },
+        "nSR": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:609.31-609.34"
+          }
+        }
+      }
+    },
+    "GP_DFFSRI": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:621.1-631.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x",
+        "SRMODE": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nSR": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "nQ": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:621.27-621.30"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:621.24-621.25"
+          }
+        },
+        "nQ": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:621.48-621.50"
+          }
+        },
+        "nSR": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:621.32-621.35"
+          }
+        }
+      }
+    },
+    "GP_DLATCH": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:633.1-640.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "nCLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:633.24-633.25"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:633.50-633.51"
+          }
+        },
+        "nCLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:633.33-633.37"
+          }
+        }
+      }
+    },
+    "GP_DLATCHI": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:642.1-649.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "nCLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nQ": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:642.25-642.26"
+          }
+        },
+        "nCLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:642.34-642.38"
+          }
+        },
+        "nQ": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:642.51-642.53"
+          }
+        }
+      }
+    },
+    "GP_DLATCHR": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:651.1-660.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "nCLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nRST": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:651.25-651.26"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:651.63-651.64"
+          }
+        },
+        "nCLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:651.34-651.38"
+          }
+        },
+        "nRST": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:651.46-651.50"
+          }
+        }
+      }
+    },
+    "GP_DLATCHRI": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:662.1-671.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "nCLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nRST": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "nQ": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:662.26-662.27"
+          }
+        },
+        "nCLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:662.35-662.39"
+          }
+        },
+        "nQ": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:662.64-662.66"
+          }
+        },
+        "nRST": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:662.47-662.51"
+          }
+        }
+      }
+    },
+    "GP_DLATCHS": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:673.1-682.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "nCLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nSET": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:673.25-673.26"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:673.63-673.64"
+          }
+        },
+        "nCLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:673.34-673.38"
+          }
+        },
+        "nSET": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:673.46-673.50"
+          }
+        }
+      }
+    },
+    "GP_DLATCHSI": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:684.1-693.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "nCLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nSET": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "nQ": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:684.26-684.27"
+          }
+        },
+        "nCLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:684.35-684.39"
+          }
+        },
+        "nQ": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:684.64-684.66"
+          }
+        },
+        "nSET": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:684.47-684.51"
+          }
+        }
+      }
+    },
+    "GP_DLATCHSR": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:695.1-705.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x",
+        "SRMODE": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "nCLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nSR": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:695.26-695.27"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:695.63-695.64"
+          }
+        },
+        "nCLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:695.35-695.39"
+          }
+        },
+        "nSR": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:695.47-695.50"
+          }
+        }
+      }
+    },
+    "GP_DLATCHSRI": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:707.1-717.10"
+      },
+      "parameter_default_values": {
+        "INIT": "x",
+        "SRMODE": "x"
+      },
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "nCLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "nSR": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "nQ": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:707.27-707.28"
+          }
+        },
+        "nCLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:707.36-707.40"
+          }
+        },
+        "nQ": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:707.64-707.66"
+          }
+        },
+        "nSR": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:707.48-707.51"
+          }
+        }
+      }
+    },
+    "GP_EDGEDET": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_wip.v:26.1-34.10"
+      },
+      "parameter_default_values": {
+        "DELAY_STEPS": "00000000000000000000000000000001",
+        "EDGE_DIRECTION": "RISING",
+        "GLITCH_FILTER": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "IN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:26.25-26.27"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:26.40-26.43"
+          }
+        }
+      }
+    },
+    "GP_IBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:719.1-721.10"
+      },
+      "ports": {
+        "IN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:719.22-719.24"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:719.33-719.36"
+          }
+        }
+      }
+    },
+    "GP_INV": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:728.1-730.10"
+      },
+      "ports": {
+        "IN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:728.21-728.23"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:728.32-728.35"
+          }
+        }
+      }
+    },
+    "GP_IOBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:723.1-726.10"
+      },
+      "ports": {
+        "IN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "OE": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "IO": {
+          "direction": "inout",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:723.23-723.25"
+          }
+        },
+        "IO": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:723.55-723.57"
+          }
+        },
+        "OE": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:723.33-723.35"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:723.44-723.47"
+          }
+        }
+      }
+    },
+    "GP_LFOSC": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_ams.v:47.1-68.10"
+      },
+      "parameter_default_values": {
+        "AUTO_PWRDN": "00000000000000000000000000000000",
+        "OUT_DIV": "00000000000000000000000000000001",
+        "PWRDN_EN": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "PWRDN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLKOUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLKOUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:47.41-47.47"
+          }
+        },
+        "PWRDN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:47.23-47.28"
+          }
+        }
+      }
+    },
+    "GP_OBUF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:732.1-734.10"
+      },
+      "ports": {
+        "IN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:732.22-732.24"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:732.33-732.36"
+          }
+        }
+      }
+    },
+    "GP_OBUFT": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:736.1-738.10"
+      },
+      "ports": {
+        "IN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "OE": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "IN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:736.23-736.25"
+          }
+        },
+        "OE": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:736.33-736.35"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:736.44-736.47"
+          }
+        }
+      }
+    },
+    "GP_PGA": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_ams.v:70.1-79.10"
+      },
+      "parameter_default_values": {
+        "GAIN": "00000000000000000000000000000001",
+        "INPUT_MODE": "SINGLE"
+      },
+      "ports": {
+        "VIN_P": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "VIN_N": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "VIN_SEL": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "VOUT": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "VIN_N": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:70.44-70.49"
+          }
+        },
+        "VIN_P": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:70.26-70.31"
+          }
+        },
+        "VIN_SEL": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:70.62-70.69"
+          }
+        },
+        "VOUT": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:70.82-70.86"
+          }
+        }
+      }
+    },
+    "GP_PGEN": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:740.1-763.10"
+      },
+      "parameter_default_values": {
+        "PATTERN_DATA": "0000000000000000",
+        "PATTERN_LEN": "10000"
+      },
+      "ports": {
+        "nRST": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "OUT": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:740.44-740.47"
+          }
+        },
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:740.60-740.63"
+          }
+        },
+        "nRST": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:740.27-740.31"
+          }
+        }
+      }
+    },
+    "GP_POR": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_ams.v:91.1-110.10"
+      },
+      "parameter_default_values": {
+        "POR_TIME": "00000000000000000000000111110100"
+      },
+      "ports": {
+        "RST_DONE": {
+          "direction": "output",
+          "bits": [ 2 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "RST_DONE": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:91.26-91.34"
+          }
+        }
+      }
+    },
+    "GP_PWRDET": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_ams.v:81.1-83.10"
+      },
+      "ports": {
+        "VDD_LOW": {
+          "direction": "output",
+          "bits": [ 2 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "VDD_LOW": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:81.29-81.36"
+          }
+        }
+      }
+    },
+    "GP_RCOSC": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_wip.v:36.1-72.10"
+      },
+      "parameter_default_values": {
+        "AUTO_PWRDN": "00000000000000000000000000000000",
+        "FABRIC_DIV": "00000000000000000000000000000001",
+        "HARDIP_DIV": "00000000000000000000000000000001",
+        "OSC_FREQ": "25k",
+        "PWRDN_EN": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "PWRDN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLKOUT_HARDIP": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "CLKOUT_FABRIC": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLKOUT_FABRIC": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:36.67-36.80"
+          }
+        },
+        "CLKOUT_HARDIP": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:36.41-36.54"
+          }
+        },
+        "PWRDN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:36.23-36.28"
+          }
+        }
+      }
+    },
+    "GP_RINGOSC": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_wip.v:74.1-100.10"
+      },
+      "parameter_default_values": {
+        "AUTO_PWRDN": "00000000000000000000000000000000",
+        "FABRIC_DIV": "00000000000000000000000000000001",
+        "HARDIP_DIV": "00000000000000000000000000000001",
+        "PWRDN_EN": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "PWRDN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLKOUT_HARDIP": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "CLKOUT_FABRIC": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLKOUT_FABRIC": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:74.69-74.82"
+          }
+        },
+        "CLKOUT_HARDIP": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:74.43-74.56"
+          }
+        },
+        "PWRDN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:74.25-74.30"
+          }
+        }
+      }
+    },
+    "GP_SHREG": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:765.1-786.10"
+      },
+      "parameter_default_values": {
+        "OUTA_INVERT": "00000000000000000000000000000000",
+        "OUTA_TAP": "00000000000000000000000000000001",
+        "OUTB_TAP": "00000000000000000000000000000001"
+      },
+      "ports": {
+        "nRST": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "IN": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "OUTA": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "OUTB": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:765.35-765.38"
+          }
+        },
+        "IN": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:765.46-765.48"
+          }
+        },
+        "OUTA": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:765.57-765.61"
+          }
+        },
+        "OUTB": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:765.70-765.74"
+          }
+        },
+        "nRST": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:765.23-765.27"
+          }
+        }
+      }
+    },
+    "GP_SPI": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_wip.v:102.1-126.10"
+      },
+      "parameter_default_values": {
+        "DATA_WIDTH": "00000000000000000000000000001000",
+        "DIRECTION": "INPUT",
+        "SPI_CPHA": "00000000000000000000000000000000",
+        "SPI_CPOL": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "SCK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "SDAT": {
+          "direction": "inout",
+          "bits": [ 3 ]
+        },
+        "CSN": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "TXD_HIGH": {
+          "direction": "input",
+          "bits": [ 5, 6, 7, 8, 9, 10, 11, 12 ]
+        },
+        "TXD_LOW": {
+          "direction": "input",
+          "bits": [ 13, 14, 15, 16, 17, 18, 19, 20 ]
+        },
+        "RXD_HIGH": {
+          "direction": "output",
+          "bits": [ 21, 22, 23, 24, 25, 26, 27, 28 ]
+        },
+        "RXD_LOW": {
+          "direction": "output",
+          "bits": [ 29, 30, 31, 32, 33, 34, 35, 36 ]
+        },
+        "INT": {
+          "direction": "output",
+          "bits": [ 37 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CSN": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:105.8-105.11"
+          }
+        },
+        "INT": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:110.13-110.16"
+          }
+        },
+        "RXD_HIGH": {
+          "hide_name": 0,
+          "bits": [ 21, 22, 23, 24, 25, 26, 27, 28 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:108.18-108.26"
+          }
+        },
+        "RXD_LOW": {
+          "hide_name": 0,
+          "bits": [ 29, 30, 31, 32, 33, 34, 35, 36 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:109.18-109.25"
+          }
+        },
+        "SCK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:103.8-103.11"
+          }
+        },
+        "SDAT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:104.8-104.12"
+          }
+        },
+        "TXD_HIGH": {
+          "hide_name": 0,
+          "bits": [ 5, 6, 7, 8, 9, 10, 11, 12 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:106.13-106.21"
+          }
+        },
+        "TXD_LOW": {
+          "hide_name": 0,
+          "bits": [ 13, 14, 15, 16, 17, 18, 19, 20 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:107.13-107.20"
+          }
+        }
+      }
+    },
+    "GP_SYSRESET": {
+      "attributes": {
+        "keep": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_wip.v:130.1-136.10"
+      },
+      "parameter_default_values": {
+        "EDGE_SPEED": "00000000000000000000000000000100",
+        "RESET_MODE": "EDGE"
+      },
+      "ports": {
+        "RST": {
+          "direction": "input",
+          "bits": [ 2 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "RST": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_wip.v:130.26-130.29"
+          }
+        }
+      }
+    },
+    "GP_VDD": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:788.1-790.10"
+      },
+      "ports": {
+        "OUT": {
+          "direction": "output",
+          "bits": [ 2 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:788.22-788.25"
+          }
+        }
+      }
+    },
+    "GP_VREF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_ams.v:85.1-89.10"
+      },
+      "parameter_default_values": {
+        "VIN_DIV": "00000000000000000000000000000001",
+        "VREF": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "VIN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "VOUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "VIN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:85.22-85.25"
+          }
+        },
+        "VOUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_ams.v:85.38-85.42"
+          }
+        }
+      }
+    },
+    "GP_VSS": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/yosys/share/greenpak4/cells_sim_digital.v:792.1-794.10"
+      },
+      "ports": {
+        "OUT": {
+          "direction": "output",
+          "bits": [ 2 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "OUT": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/yosys/share/greenpak4/cells_sim_digital.v:792.22-792.25"
+          }
+        }
+      }
+    },
+    "inverter": {
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "inverter.v:1.1-8.10"
+      },
+      "ports": {
+        "in": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "out": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+        "$abc$87$auto$blifparse.cc:515:parse_blif$88": {
+          "hide_name": 1,
+          "type": "GP_INV",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/yosys/share/greenpak4/cells_map.v:125.11-125.50"
+          },
+          "port_directions": {
+            "IN": "input",
+            "OUT": "output"
+          },
+          "connections": {
+            "IN": [ 4 ],
+            "OUT": [ 5 ]
+          }
+        },
+        "$iopadmap$inverter.in": {
+          "hide_name": 1,
+          "type": "GP_IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "inverter.v:2.14-2.16"
+          },
+          "port_directions": {
+            "IN": "input",
+            "OUT": "output"
+          },
+          "connections": {
+            "IN": [ 2 ],
+            "OUT": [ 4 ]
+          }
+        },
+        "$iopadmap$inverter.out": {
+          "hide_name": 1,
+          "type": "GP_OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "inverter.v:3.15-3.18"
+          },
+          "port_directions": {
+            "IN": "input",
+            "OUT": "output"
+          },
+          "connections": {
+            "IN": [ 5 ],
+            "OUT": [ 3 ]
+          }
+        }
+      },
+      "netnames": {
+        "$iopadmap$out": {
+          "hide_name": 1,
+          "bits": [ 5 ],
+          "attributes": {
+          }
+        },
+        "$techmap89$abc$87$auto$blifparse.cc:515:parse_blif$88.A": {
+          "hide_name": 1,
+          "bits": [ 4 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "/yosys/share/greenpak4/cells_map.v:119.20-119.21"
+          }
+        },
+        "in": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+          }
+        },
+        "out": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+          }
+        }
+      }
+    }
+  }
+}

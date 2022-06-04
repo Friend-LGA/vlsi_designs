@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 24127 26271
+string GDS_END 333614
+string GDS_FILE /openlane/designs/current/runs/RUN__2022_06_04__22_38_23/results/signoff/multiplexer.magic.gds
+string GDS_START 58950
+<< end >>

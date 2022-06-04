@@ -1,0 +1,89 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1654371545
+<< obsli1 >>
+rect 1104 2159 12420 13073
+<< obsm1 >>
+rect 14 2128 12420 13104
+<< metal2 >>
+rect 3882 14959 3938 15759
+rect 18 0 74 800
+<< obsm2 >>
+rect 20 14903 3826 14959
+rect 3994 14903 11666 14959
+rect 20 856 11666 14903
+rect 130 800 11666 856
+<< metal3 >>
+rect 12815 5448 13615 5568
+<< obsm3 >>
+rect 2358 5648 12815 13089
+rect 2358 5368 12735 5648
+rect 2358 2143 12815 5368
+<< metal4 >>
+rect 2359 2128 2679 13104
+rect 3773 2128 4093 13104
+rect 5188 2128 5508 13104
+rect 6602 2128 6922 13104
+rect 8017 2128 8337 13104
+rect 9431 2128 9751 13104
+rect 10846 2128 11166 13104
+<< obsm4 >>
+rect 2759 2128 3693 13104
+rect 4173 2128 5108 13104
+rect 5588 2128 6522 13104
+rect 7002 2128 7937 13104
+rect 8417 2128 9351 13104
+rect 9831 2128 10766 13104
+<< metal5 >>
+rect 1104 11488 12420 11808
+rect 1104 10128 12420 10448
+rect 1104 8768 12420 9088
+rect 1104 7408 12420 7728
+rect 1104 6048 12420 6368
+rect 1104 4688 12420 5008
+rect 1104 3328 12420 3648
+<< labels >>
+rlabel metal5 s 1104 4688 12420 5008 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 7408 12420 7728 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 10128 12420 10448 6 VGND
+port 1 nsew ground input
+rlabel metal4 s 3773 2128 4093 13104 6 VGND
+port 1 nsew ground input
+rlabel metal4 s 6602 2128 6922 13104 6 VGND
+port 1 nsew ground input
+rlabel metal4 s 9431 2128 9751 13104 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 3328 12420 3648 6 VPWR
+port 2 nsew power input
+rlabel metal5 s 1104 6048 12420 6368 6 VPWR
+port 2 nsew power input
+rlabel metal5 s 1104 8768 12420 9088 6 VPWR
+port 2 nsew power input
+rlabel metal5 s 1104 11488 12420 11808 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 2359 2128 2679 13104 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 5188 2128 5508 13104 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 8017 2128 8337 13104 6 VPWR
+port 2 nsew power input
+rlabel metal4 s 10846 2128 11166 13104 6 VPWR
+port 2 nsew power input
+rlabel metal2 s 18 0 74 800 6 in1
+port 3 nsew signal input
+rlabel metal2 s 3882 14959 3938 15759 6 in2
+port 4 nsew signal input
+rlabel metal3 s 12815 5448 13615 5568 6 out
+port 5 nsew signal output
+<< properties >>
+string FIXED_BBOX 0 0 13615 15759
+string LEFclass BLOCK
+string LEFview TRUE
+string GDS_END 142872
+string GDS_FILE /openlane/designs/current/runs/RUN__2022_06_04__22_38_48/results/signoff/xor_gate.magic.gds
+string GDS_START 34124
+<< end >>
+

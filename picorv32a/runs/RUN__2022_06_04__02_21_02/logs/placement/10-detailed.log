@@ -1,0 +1,28 @@
+OpenROAD c1c315118e68926dfff368f85e13bf50adaa920f 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/current/runs/RUN__2022_06_04__02_21_02/tmp/merged.unpadded.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/current/runs/RUN__2022_06_04__02_21_02/tmp/merged.unpadded.nom.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/current/runs/RUN__2022_06_04__02_21_02/tmp/placement/8-resizer.def
+[INFO ODB-0128] Design: picorv32a
+[INFO ODB-0130]     Created 411 pins.
+[INFO ODB-0131]     Created 24213 components and 142083 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 83696 connections.
+[INFO ODB-0133]     Created 17235 nets and 58346 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/current/runs/RUN__2022_06_04__02_21_02/tmp/placement/8-resizer.def
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          876246.9 u
+legalized HPWL         888075.9 u
+delta HPWL                    1 %
+
+[INFO DPL-0020] Mirrored 6600 instances
+[INFO DPL-0021] HPWL before          888075.9 u
+[INFO DPL-0022] HPWL after           876246.9 u
+[INFO DPL-0023] HPWL delta               -1.3 %

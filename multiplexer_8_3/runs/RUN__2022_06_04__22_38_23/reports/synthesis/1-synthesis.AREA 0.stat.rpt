@@ -1,0 +1,19 @@
+
+24. Printing statistics.
+
+=== multiplexer ===
+
+   Number of wires:                  6
+   Number of wire bits:             15
+   Number of public wires:           3
+   Number of public wire bits:      12
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  4
+     sky130_fd_sc_hd__buf_1          1
+     sky130_fd_sc_hd__mux2_2         1
+     sky130_fd_sc_hd__mux4_2         2
+
+   Chip area for module '\multiplexer': 60.057600
+

@@ -1,0 +1,15 @@
+OpenROAD c1c315118e68926dfff368f85e13bf50adaa920f 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/current/runs/RUN__2022_06_04__02_21_02/tmp/merged.unpadded.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/current/runs/RUN__2022_06_04__02_21_02/tmp/merged.unpadded.nom.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/current/runs/RUN__2022_06_04__02_21_02/tmp/routing/15-resizer_timing.def
+[INFO ODB-0128] Design: picorv32a
+[INFO ODB-0130]     Created 411 pins.
+[INFO ODB-0131]     Created 24560 components and 144165 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 85084 connections.
+[INFO ODB-0133]     Created 17582 nets and 59040 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/current/runs/RUN__2022_06_04__02_21_02/tmp/routing/15-resizer_timing.def
