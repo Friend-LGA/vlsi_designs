@@ -1,7 +1,7 @@
 module demultiplexer(
   input logic in,
   input logic [2:0] sel,
-  output logic [7:0] out,
+  output logic [7:0] out
 );
 
   always_comb begin

@@ -16,7 +16,7 @@ module multiplexer_tb;
     $dumpfile("multiplexer_tb.vcd");
     $dumpvars(0);
     #10;
-    in0 = 8'b01010101
+    in = 8'b01010101;
     sel = 0;
     #10;
     sel = 1;
