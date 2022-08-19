@@ -1,0 +1,7 @@
+** sch_path:
+*+ /home/grigorii/projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/test_format_override.sch
+**.subckt test_format_override
+x1 x1_A x1_B VCC VSS VCC VSS x1_Y MYAND2
+x2 x2_Y x2_A x2_B VCC VSS VCC VSS AND2
+**.ends
+.end
