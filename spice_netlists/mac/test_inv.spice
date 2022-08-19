@@ -1,5 +1,5 @@
 ** sch_path:
-*+ /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/test_inv.sch
+*+ /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/test_inv.sch
 **.subckt test_inv
 C1 Z[1] 0 4f m=1
 C2 Z[2] 0 4f m=1
@@ -48,15 +48,15 @@ hardcopy test_inv.svg "y[2]" "y[3]" "y[4]"
 
 
 ** opencircuitdesign pdks install
-.lib /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.lib /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
 
 **** end user architecture code
 **.ends
 
 * expanding   symbol:  sky130_tests/not.sym # of pins=2
-** sym_path: /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/not.sym
-** sch_path: /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/not.sch
+** sym_path: /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/not.sym
+** sch_path: /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/not.sch
 .subckt not y a  VCCPIN  VSSPIN      W_N=1 L_N=0.15 W_P=2 L_P=0.15
 *.opin y
 *.ipin a
@@ -70,8 +70,8 @@ XM2 y a VCCPIN VCCPIN sky130_fd_pr__pfet_01v8 L=L_P W=W_P nf=1 ad='int((nf+1)/2)
 
 
 * expanding   symbol:  sky130_tests/lvtnot.sym # of pins=2
-** sym_path: /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/lvtnot.sym
-** sch_path: /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/lvtnot.sch
+** sym_path: /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/lvtnot.sym
+** sch_path: /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/lvtnot.sch
 .subckt lvtnot a y  VCCPIN  VSSPIN      W_N=1 L_N=0.15 W_P=2 L_P=0.35
 *.opin y
 *.ipin a

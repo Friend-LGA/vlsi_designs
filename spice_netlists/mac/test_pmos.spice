@@ -1,5 +1,5 @@
 ** sch_path:
-*+ /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/test_pmos.sch
+*+ /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/test_pmos.sch
 **.subckt test_pmos G1v8 D1v8 B
 *.ipin G1v8
 *.ipin D1v8
@@ -68,7 +68,7 @@ hardcopy test_pmos.svg all.vd1#branch vs D1v8
 
 
 ** opencircuitdesign pdks install
-.lib /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.lib /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
 
 **** end user architecture code

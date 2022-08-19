@@ -1,5 +1,5 @@
 ** sch_path:
-*+ /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/test_bipolar.sch
+*+ /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/test_bipolar.sch
 **.subckt test_bipolar
 XQ1 net2 net1 E1 sky130_fd_pr__pnp_05v5_W3p40L3p40
 Vc1 net2 0 0
@@ -24,7 +24,7 @@ hardcopy test_bipolar.svg vc1#branch / vb1#branch
 
 
 ** opencircuitdesign pdks install
-.lib /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.lib /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
 **** end user architecture code
 **.ends

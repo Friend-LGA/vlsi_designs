@@ -1,5 +1,5 @@
 ** sch_path:
-*+ /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/test_vpp_cap.sch
+*+ /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/xschem/sky130_tests/test_vpp_cap.sch
 **.subckt test_vpp_cap
 I1 0 G pwl 0 0 1000n 0 1010n 100n
 R1 G REF 1G m=1
@@ -21,7 +21,7 @@ hardcopy test_vpp_cap.svg g g2
 
 
 ** opencircuitdesign pdks install
-.lib /home/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.lib /Users/grigorii_lutkov/Projects/OpenLane/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
 
 **** end user architecture code
